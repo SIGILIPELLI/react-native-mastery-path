@@ -1,0 +1,114 @@
+site_name: React Native Mastery Path
+site_description: A hands-on React Native course with Expo and TypeScript — core components, Flexbox layout, navigation with Expo Router, state and data, device APIs, animations, native modules, performance, testing, EAS builds and shipping to the App Store and Google Play.
+site_url: https://sigilipelli.github.io/react-native-mastery-path/
+repo_url: https://github.com/sigilipelli/react-native-mastery-path
+repo_name: react-native-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Foundations with Expo":
+      - Overview: level-1/index.md
+      - "01 · How React Native Works & Setting Up Expo": level-1/01-how-react-native-works.md
+      - "02 · Core Components: View, Text, Image & ScrollView": level-1/02-core-components.md
+      - "03 · Styling with StyleSheet": level-1/03-stylesheet-styling.md
+      - "04 · Flexbox Layout the React Native Way": level-1/04-flexbox-layout.md
+      - "05 · Touch & Feedback with Pressable": level-1/05-pressable-touch.md
+      - "06 · TextInput & Simple Forms": level-1/06-textinput-forms.md
+      - "07 · Lists with FlatList & SectionList": level-1/07-flatlist-sectionlist.md
+      - "08 · Safe Areas, Platform Differences & Screen Size": level-1/08-safe-area-platform.md
+      - "09 · Debugging React Native Apps": level-1/09-debugging.md
+      - "10 · Project — Habit Tracker": level-1/10-project-habit-tracker.md
+  - "Level 2 · Navigation, State & Data":
+      - Overview: level-2/index.md
+      - "01 · Navigation Concepts: Stacks, Tabs & Modals": level-2/01-navigation-concepts.md
+      - "02 · File-Based Routing with Expo Router": level-2/02-expo-router.md
+      - "03 · Route Params, Deep Links & Typed Routes": level-2/03-params-deep-links.md
+      - "04 · App State: Context, useReducer & Zustand": level-2/04-app-state.md
+      - "05 · Fetching Data with TanStack Query": level-2/05-data-fetching.md
+      - "06 · Local Persistence: AsyncStorage, SecureStore & SQLite": level-2/06-local-persistence.md
+      - "07 · Forms & Validation with React Hook Form and Zod": level-2/07-forms-validation.md
+      - "08 · Images, Fonts & Assets": level-2/08-images-fonts-assets.md
+      - "09 · The Keyboard, Modals & Bottom Sheets": level-2/09-keyboard-modals.md
+      - "10 · Project — Offline-Friendly Recipe Book": level-2/10-project-recipe-book.md
+  - "Level 3 · Native Capabilities & Polish":
+      - Overview: level-3/index.md
+      - "01 · Under the Hood: Threads, JSI & the New Architecture": level-3/01-architecture-new-arch.md
+      - "02 · Device APIs: Camera, Location & Haptics": level-3/02-device-apis.md
+      - "03 · Permissions Done Right": level-3/03-permissions.md
+      - "04 · Local & Push Notifications": level-3/04-notifications.md
+      - "05 · Animations with Animated & Reanimated": level-3/05-animations.md
+      - "06 · Gestures with React Native Gesture Handler": level-3/06-gestures.md
+      - "07 · Accessibility in React Native": level-3/07-accessibility.md
+      - "08 · Writing a Native Module with the Expo Modules API": level-3/08-native-modules.md
+      - "09 · Development Builds, Prebuild & Config Plugins": level-3/09-dev-builds-prebuild.md
+      - "10 · Project — Field Notes with Camera, Location & Offline Sync": level-3/10-project-field-notes.md
+  - "Level 4 · Production & Shipping":
+      - Overview: level-4/index.md
+      - "01 · Performance: Finding & Fixing Jank": level-4/01-performance-profiling.md
+      - "02 · Big Lists: Tuning FlatList & Using FlashList": level-4/02-list-performance.md
+      - "03 · Unit & Component Tests with Jest and RNTL": level-4/03-testing-rntl.md
+      - "04 · End-to-End Testing with Maestro & Detox": level-4/04-e2e-testing.md
+      - "05 · Mobile Security: Secrets, Storage & the Network": level-4/05-security.md
+      - "06 · Building with EAS & App Signing": level-4/06-eas-build-signing.md
+      - "07 · Shipping to the App Store & Google Play": level-4/07-store-submission.md
+      - "08 · Over-the-Air Updates & Release Strategy": level-4/08-ota-updates.md
+      - "09 · Crash Reporting, Analytics & Monitoring": level-4/09-monitoring.md
+      - "10 · Capstone — Ship a Production-Ready App": level-4/10-capstone.md
