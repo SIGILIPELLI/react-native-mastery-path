@@ -11,7 +11,7 @@ swiping between elements. React Native maps its accessibility props to those nat
 doing it right is mostly about giving each element the right information.
 
 General principles of accessible design are covered in the
-[HTML & CSS Mastery Path](https://sigilipelli.github.io/html-css-mastery-path/) and the React course;
+[HTML & CSS Mastery Path](https://learnmasterypath.com/html-css-mastery-path/) and the React course;
 this lesson is about the React Native specifics.
 
 ## How a screen reader sees your app

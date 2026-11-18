@@ -10,9 +10,9 @@ bundle and resources, run it on a rooted or jailbroken phone, intercept its netw
 your API directly. Security therefore lives on the **server**; the app's job is to avoid making the
 attacker's life easy and to protect the *user's* data on their own device.
 
-The [Cybersecurity Mastery Path](https://sigilipelli.github.io/cybersecurity-mastery-path/) covers
+The [Cybersecurity Mastery Path](https://learnmasterypath.com/cybersecurity-mastery-path/) covers
 security fundamentals broadly, and the mobile-testing lesson in the
-[Ethical Hacking Mastery Path](https://sigilipelli.github.io/ethical-hacking-mastery-path/) shows the
+[Ethical Hacking Mastery Path](https://learnmasterypath.com/ethical-hacking-mastery-path/) shows the
 attacker's view. This lesson is the React Native developer's checklist.
 
 ## 1. Nothing in the bundle is secret

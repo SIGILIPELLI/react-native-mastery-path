@@ -17,8 +17,8 @@ pulls it together into a habit tracker that runs on both iOS and Android.
 
 **Prerequisites:** React fundamentals (components, props, `useState`, `useEffect`) and a little
 TypeScript. If those are new, the
-[React Mastery Path](https://sigilipelli.github.io/react-mastery-path/) Level 1 and the
-[TypeScript Mastery Path](https://sigilipelli.github.io/typescript-mastery-path/) cover them.
+[React Mastery Path](https://learnmasterypath.com/react-mastery-path/) Level 1 and the
+[TypeScript Mastery Path](https://learnmasterypath.com/typescript-mastery-path/) cover them.
 
 ## Modules
 

@@ -18,7 +18,7 @@ the keyboard covering your inputs. The project combines everything into an offli
 book.
 
 **Prerequisites:** Level 1, plus comfort with `async`/`await` and `useEffect`. If state management
-patterns are new, Level 2 of the [React Mastery Path](https://sigilipelli.github.io/react-mastery-path/)
+patterns are new, Level 2 of the [React Mastery Path](https://learnmasterypath.com/react-mastery-path/)
 covers Context and `useReducer` in depth; this level focuses on how they apply on mobile.
 
 ## Modules
