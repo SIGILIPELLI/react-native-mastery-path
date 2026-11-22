@@ -58,9 +58,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -124,3 +126,5 @@ nav:
       - "08 · Over-the-Air Updates & Release Strategy": level-4/08-ota-updates.md
       - "09 · Crash Reporting, Analytics & Monitoring": level-4/09-monitoring.md
       - "10 · Capstone — Ship a Production-Ready App": level-4/10-capstone.md
+  - "🎯 Final Quiz": quiz.md
+
