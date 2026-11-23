@@ -80,8 +80,8 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
-  - "📋 Cheat Sheet": cheat-sheet.md
+  - Interview Questions: interview-questions.md
+  - Cheat Sheet: cheat-sheet.md
   - "Level 1 · Foundations with Expo":
       - Overview: level-1/index.md
       - "01 · How React Native Works & Setting Up Expo": level-1/01-how-react-native-works.md
@@ -130,5 +130,5 @@ nav:
       - "08 · Over-the-Air Updates & Release Strategy": level-4/08-ota-updates.md
       - "09 · Crash Reporting, Analytics & Monitoring": level-4/09-monitoring.md
       - "10 · Capstone — Ship a Production-Ready App": level-4/10-capstone.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 
