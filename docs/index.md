@@ -1,6 +1,6 @@
 ---
 title: "Free React Native Course: Expo, TypeScript, Navigation, Native APIs, Performance, Testing and Shipping to the App Stores"
-description: "Free React Native course: 36 lessons and 4 projects with Expo and TypeScript — layout, Expo Router, state, data, native modules, animation, testing and store release."
+description: "Free React Native course: 36 lessons, 3 projects and 1 capstone with Expo and TypeScript — layout, Expo Router, state, data, native modules, animation, testing and store release."
 ---
 
 # React Native Mastery Path
@@ -65,7 +65,7 @@ your native code.
 | **3 · Native Capabilities & Polish** | Architecture, device APIs, animation, gestures, a11y, native modules | 10 | Use the hardware, animate at 60 fps and extend the platform |
 | **4 · Production & Shipping** | Performance, testing, security, EAS, stores, OTA, monitoring | 10 | Ship, update and support an app in both stores |
 
-Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons and 4 projects** in total.
+Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons, 3 projects and 1 capstone** in total.
 
 ## How to use this site
 
