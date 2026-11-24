@@ -1,0 +1,4264 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="179 React Native interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the React Native Mastery Path.">
+      
+      
+      
+        <link rel="canonical" href="https://learnmasterypath.com/react-native-mastery-path/interview-questions/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../cheat-sheet/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+  
+  <title>React Native Interview Questions and Answers (179 Questions)</title>
+
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../stylesheets/progress-tracker.css">
+    
+      <link rel="stylesheet" href="../stylesheets/final-quiz.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05VBGCXN12"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-05VBGCXN12');
+  </script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mastery Path">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="React Native Interview Questions and Answers (179 Questions)">
+  <meta property="og:description" content="179 React Native interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the React Native Mastery Path.">
+  <meta property="og:url" content="https://learnmasterypath.com/react-native-mastery-path/interview-questions/">
+  <meta property="og:image" content="https://learnmasterypath.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mastery Path: free structured courses, beginner to master">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="React Native Interview Questions and Answers (179 Questions)">
+  <meta name="twitter:description" content="179 React Native interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the React Native Mastery Path.">
+  <meta name="twitter:image" content="https://learnmasterypath.com/og-image.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9440969811959397"
+     crossorigin="anonymous"></script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Mastery Path", "item": "https://learnmasterypath.com/"},
+      {"@type": "ListItem", "position": 2, "name": "React Native Mastery Path", "item": "https://learnmasterypath.com/react-native-mastery-path/"},
+      {"@type": "ListItem", "position": 3, "name": "Interview Questions", "item": "https://learnmasterypath.com/react-native-mastery-path/interview-questions/"}
+    ]
+  }
+  </script>
+  <style>
+    .md-banner a:hover { text-decoration: underline !important; }
+    .mp-related { margin-top: 2.4rem; padding-top: 1rem; border-top: 1px solid var(--md-default-fg-color--lightest); font-size: .78rem; }
+    .mp-related h2 { font-size: .9rem; margin: 0 0 .5rem; }
+    .mp-related ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem .9rem; }
+    .mp-related li { margin: 0 !important; }
+  </style>
+  <script type="application/json" id="mp-course-meta">{"home": false, "id": "react-native-mastery-path", "name": "React Native Mastery Path", "repo": "https://github.com/sigilipelli/react-native-mastery-path", "src": "interview-questions.md", "url": "https://learnmasterypath.com/react-native-mastery-path/"}</script>
+  <link rel="stylesheet" href="https://learnmasterypath.com/assets/learn.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://learnmasterypath.com/assets/course.css?v=1">
+  <script src="https://learnmasterypath.com/assets/learn.js" defer></script>
+  <script src="https://learnmasterypath.com/assets/signup.js" defer></script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#react-native-interview-questions-and-answers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <a href="https://learnmasterypath.com/" style="color: inherit; text-decoration: none;">
+    &larr; Mastery Path &middot; all 100+ free courses
+  </a>
+  <span style="opacity: .6; margin: 0 .6em;">|</span>
+  <a href="https://learnmasterypath.com/search/" style="color: inherit; text-decoration: none;">Search all courses</a>
+  <span style="opacity: .6; margin: 0 .6em;">|</span>
+  <a href="https://learnmasterypath.com/resume/" style="color: inherit; font-weight: 700; text-decoration: none;">
+    Got the skills? Free resume ATS check &rarr;
+  </a>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="React Native Mastery Path" class="md-header__button md-logo" aria-label="React Native Mastery Path" data-md-component="logo">
+      <svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg>
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            React Native Mastery Path
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              React Native Interview Questions and Answers (179 Questions)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/sigilipelli/react-native-mastery-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    react-native-mastery-path
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Interview Questions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../cheat-sheet/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Cheat Sheet
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 1 · Foundations with Expo
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-2/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 2 · Navigation, State & Data
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-3/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 3 · Native Capabilities & Polish
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-4/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 4 · Production & Shipping
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../quiz/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Final Quiz
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="React Native Mastery Path" class="md-nav__button md-logo" aria-label="React Native Mastery Path" data-md-component="logo">
+      <svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg>
+    </a>
+    React Native Mastery Path
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/sigilipelli/react-native-mastery-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    react-native-mastery-path
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-foundations-with-expo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 1 · Foundations with Expo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 · Foundations with Expo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-how-react-native-works-setting-up-expo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · How React Native Works &amp; Setting Up Expo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-core-components-view-text-image-scrollview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Core Components: View, Text, Image &amp; ScrollView
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-styling-with-stylesheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Styling with StyleSheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-flexbox-layout-the-react-native-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Flexbox Layout the React Native Way
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-touch-feedback-with-pressable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Touch &amp; Feedback with Pressable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-textinput-simple-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · TextInput &amp; Simple Forms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-lists-with-flatlist-sectionlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Lists with FlatList &amp; SectionList
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-safe-areas-platform-differences-screen-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Safe Areas, Platform Differences &amp; Screen Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-debugging-react-native-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Debugging React Native Apps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-habit-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — Habit Tracker
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-navigation-state-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 2 · Navigation, State &amp; Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 · Navigation, State &amp; Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-navigation-concepts-stacks-tabs-modals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Navigation Concepts: Stacks, Tabs &amp; Modals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-file-based-routing-with-expo-router" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · File-Based Routing with Expo Router
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-route-params-deep-links-typed-routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Route Params, Deep Links &amp; Typed Routes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-app-state-context-usereducer-zustand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · App State: Context, useReducer &amp; Zustand
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-fetching-data-with-tanstack-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Fetching Data with TanStack Query
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-local-persistence-asyncstorage-securestore-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Local Persistence: AsyncStorage, SecureStore &amp; SQLite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-forms-validation-with-react-hook-form-and-zod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Forms &amp; Validation with React Hook Form and Zod
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-images-fonts-assets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Images, Fonts &amp; Assets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-the-keyboard-modals-bottom-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · The Keyboard, Modals &amp; Bottom Sheets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-offline-friendly-recipe-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — Offline-Friendly Recipe Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-native-capabilities-polish" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 3 · Native Capabilities &amp; Polish
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 3 · Native Capabilities &amp; Polish">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-under-the-hood-threads-jsi-the-new-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Under the Hood: Threads, JSI &amp; the New Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-device-apis-camera-location-haptics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Device APIs: Camera, Location &amp; Haptics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-permissions-done-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Permissions Done Right
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-local-push-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Local &amp; Push Notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-animations-with-animated-reanimated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Animations with Animated &amp; Reanimated
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-gestures-with-react-native-gesture-handler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Gestures with React Native Gesture Handler
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-accessibility-in-react-native" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Accessibility in React Native
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-writing-a-native-module-with-the-expo-modules-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Writing a Native Module with the Expo Modules API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-development-builds-prebuild-config-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Development Builds, Prebuild &amp; Config Plugins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-field-notes-with-camera-location-offline-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — Field Notes with Camera, Location &amp; Offline Sync
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-production-shipping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 4 · Production &amp; Shipping
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 4 · Production &amp; Shipping">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-performance-finding-fixing-jank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Performance: Finding &amp; Fixing Jank
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-big-lists-tuning-flatlist-using-flashlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Big Lists: Tuning FlatList &amp; Using FlashList
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-unit-component-tests-with-jest-and-rntl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Unit &amp; Component Tests with Jest and RNTL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-end-to-end-testing-with-maestro-detox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · End-to-End Testing with Maestro &amp; Detox
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-mobile-security-secrets-storage-the-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Mobile Security: Secrets, Storage &amp; the Network
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-building-with-eas-app-signing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Building with EAS &amp; App Signing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-shipping-to-the-app-store-google-play" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Shipping to the App Store &amp; Google Play
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-over-the-air-updates-release-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Over-the-Air Updates &amp; Release Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-crash-reporting-analytics-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Crash Reporting, Analytics &amp; Monitoring
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-capstone-ship-a-production-ready-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Capstone — Ship a Production-Ready App
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixed-questions-across-all-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixed questions across all levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-coding-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical coding questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Practical coding questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#habit-statistics-current-streak-longest-streak-and-weekly-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Habit statistics: current streak, longest streak and weekly rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#offline-sync-queue-with-exponential-backoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline sync queue with exponential backoff
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheat-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cheat Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 1 · Foundations with Expo
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 1 · Foundations with Expo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/01-how-react-native-works/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · How React Native Works & Setting Up Expo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/02-core-components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Core Components: View, Text, Image & ScrollView
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/03-stylesheet-styling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Styling with StyleSheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/04-flexbox-layout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Flexbox Layout the React Native Way
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/05-pressable-touch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Touch & Feedback with Pressable
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/06-textinput-forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · TextInput & Simple Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/07-flatlist-sectionlist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Lists with FlatList & SectionList
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/08-safe-area-platform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Safe Areas, Platform Differences & Screen Size
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/09-debugging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Debugging React Native Apps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/10-project-habit-tracker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — Habit Tracker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 2 · Navigation, State & Data
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 2 · Navigation, State & Data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/01-navigation-concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Navigation Concepts: Stacks, Tabs & Modals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/02-expo-router/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · File-Based Routing with Expo Router
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/03-params-deep-links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Route Params, Deep Links & Typed Routes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/04-app-state/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · App State: Context, useReducer & Zustand
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/05-data-fetching/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Fetching Data with TanStack Query
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/06-local-persistence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Local Persistence: AsyncStorage, SecureStore & SQLite
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/07-forms-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Forms & Validation with React Hook Form and Zod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/08-images-fonts-assets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Images, Fonts & Assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/09-keyboard-modals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · The Keyboard, Modals & Bottom Sheets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/10-project-recipe-book/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — Offline-Friendly Recipe Book
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-3/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 3 · Native Capabilities & Polish
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 3 · Native Capabilities & Polish
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/01-architecture-new-arch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Under the Hood: Threads, JSI & the New Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/02-device-apis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Device APIs: Camera, Location & Haptics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/03-permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Permissions Done Right
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/04-notifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Local & Push Notifications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/05-animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Animations with Animated & Reanimated
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/06-gestures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Gestures with React Native Gesture Handler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/07-accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Accessibility in React Native
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/08-native-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Writing a Native Module with the Expo Modules API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/09-dev-builds-prebuild/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Development Builds, Prebuild & Config Plugins
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/10-project-field-notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — Field Notes with Camera, Location & Offline Sync
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-4/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 4 · Production & Shipping
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 4 · Production & Shipping
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/01-performance-profiling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Performance: Finding & Fixing Jank
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/02-list-performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Big Lists: Tuning FlatList & Using FlashList
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/03-testing-rntl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Unit & Component Tests with Jest and RNTL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/04-e2e-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · End-to-End Testing with Maestro & Detox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/05-security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Mobile Security: Secrets, Storage & the Network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/06-eas-build-signing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Building with EAS & App Signing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/07-store-submission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Shipping to the App Store & Google Play
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/08-ota-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Over-the-Air Updates & Release Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/09-monitoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Crash Reporting, Analytics & Monitoring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/10-capstone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Capstone — Ship a Production-Ready App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-foundations-with-expo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 1 · Foundations with Expo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 · Foundations with Expo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-how-react-native-works-setting-up-expo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · How React Native Works &amp; Setting Up Expo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-core-components-view-text-image-scrollview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Core Components: View, Text, Image &amp; ScrollView
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-styling-with-stylesheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Styling with StyleSheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-flexbox-layout-the-react-native-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Flexbox Layout the React Native Way
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-touch-feedback-with-pressable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Touch &amp; Feedback with Pressable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-textinput-simple-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · TextInput &amp; Simple Forms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-lists-with-flatlist-sectionlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Lists with FlatList &amp; SectionList
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-safe-areas-platform-differences-screen-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Safe Areas, Platform Differences &amp; Screen Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-debugging-react-native-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Debugging React Native Apps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-habit-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — Habit Tracker
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-navigation-state-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 2 · Navigation, State &amp; Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 · Navigation, State &amp; Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-navigation-concepts-stacks-tabs-modals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Navigation Concepts: Stacks, Tabs &amp; Modals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-file-based-routing-with-expo-router" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · File-Based Routing with Expo Router
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-route-params-deep-links-typed-routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Route Params, Deep Links &amp; Typed Routes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-app-state-context-usereducer-zustand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · App State: Context, useReducer &amp; Zustand
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-fetching-data-with-tanstack-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Fetching Data with TanStack Query
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-local-persistence-asyncstorage-securestore-sqlite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Local Persistence: AsyncStorage, SecureStore &amp; SQLite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-forms-validation-with-react-hook-form-and-zod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Forms &amp; Validation with React Hook Form and Zod
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-images-fonts-assets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Images, Fonts &amp; Assets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-the-keyboard-modals-bottom-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · The Keyboard, Modals &amp; Bottom Sheets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-offline-friendly-recipe-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — Offline-Friendly Recipe Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-native-capabilities-polish" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 3 · Native Capabilities &amp; Polish
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 3 · Native Capabilities &amp; Polish">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-under-the-hood-threads-jsi-the-new-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Under the Hood: Threads, JSI &amp; the New Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-device-apis-camera-location-haptics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Device APIs: Camera, Location &amp; Haptics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-permissions-done-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Permissions Done Right
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-local-push-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · Local &amp; Push Notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-animations-with-animated-reanimated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Animations with Animated &amp; Reanimated
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-gestures-with-react-native-gesture-handler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Gestures with React Native Gesture Handler
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-accessibility-in-react-native" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Accessibility in React Native
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-writing-a-native-module-with-the-expo-modules-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Writing a Native Module with the Expo Modules API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-development-builds-prebuild-config-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Development Builds, Prebuild &amp; Config Plugins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-project-field-notes-with-camera-location-offline-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Project — Field Notes with Camera, Location &amp; Offline Sync
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-production-shipping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 4 · Production &amp; Shipping
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 4 · Production &amp; Shipping">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-performance-finding-fixing-jank" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        01 · Performance: Finding &amp; Fixing Jank
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-big-lists-tuning-flatlist-using-flashlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        02 · Big Lists: Tuning FlatList &amp; Using FlashList
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-unit-component-tests-with-jest-and-rntl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        03 · Unit &amp; Component Tests with Jest and RNTL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-end-to-end-testing-with-maestro-detox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        04 · End-to-End Testing with Maestro &amp; Detox
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05-mobile-security-secrets-storage-the-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        05 · Mobile Security: Secrets, Storage &amp; the Network
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06-building-with-eas-app-signing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        06 · Building with EAS &amp; App Signing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07-shipping-to-the-app-store-google-play" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        07 · Shipping to the App Store &amp; Google Play
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08-over-the-air-updates-release-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        08 · Over-the-Air Updates &amp; Release Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09-crash-reporting-analytics-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        09 · Crash Reporting, Analytics &amp; Monitoring
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-capstone-ship-a-production-ready-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 · Capstone — Ship a Production-Ready App
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixed-questions-across-all-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixed questions across all levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-coding-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical coding questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Practical coding questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#habit-statistics-current-streak-longest-streak-and-weekly-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Habit statistics: current streak, longest streak and weekly rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#offline-sync-queue-with-exponential-backoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Offline sync queue with exponential backoff
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+  
+
+
+<h1 id="react-native-interview-questions-and-answers">React Native Interview Questions and Answers<a class="headerlink" href="#react-native-interview-questions-and-answers" title="Permanent link">&para;</a></h1>
+<p><strong>179 questions</strong> with the correct answer and a short explanation, organised from beginner (Level 1) to advanced (Level 4). Every question comes from a lesson in the free React Native Mastery Path, so you can open the lesson to go deeper.</p>
+<div class="admonition tip">
+<p class="admonition-title">Practise, don't just read</p>
+<p>Each lesson also ends with an interactive quiz, and the <a href="../quiz/">final quiz</a> tests all four levels. Try to answer each question below before reading the answer.</p>
+</div>
+<h2 id="level-1-foundations-with-expo">Level 1 · Foundations with Expo<a class="headerlink" href="#level-1-foundations-with-expo" title="Permanent link">&para;</a></h2>
+<h3 id="01-how-react-native-works-setting-up-expo"><a href="../level-1/01-how-react-native-works/">01 · How React Native Works &amp; Setting Up Expo</a><a class="headerlink" href="#01-how-react-native-works-setting-up-expo" title="Permanent link">&para;</a></h3>
+<p><strong>Q1.</strong> What does React Native create when you render &lt;View&gt;&lt;Text&gt;Hello&lt;/Text&gt;&lt;/View&gt;?</p>
+<p><strong>Answer:</strong> Real native views (a UIView on iOS, a ViewGroup on Android) kept in sync with the component tree</p>
+<p>React Native keeps a tree of real platform views in sync with your React tree; nothing is drawn in a browser.</p>
+<p><strong>Q2.</strong> Which thread keeps a native ScrollView scrolling even while your JavaScript is busy for 200 ms?</p>
+<p><strong>Answer:</strong> The UI (main) thread, because scrolling is handled natively</p>
+<p>Scrolling lives on the UI thread, so it does not need JavaScript. Taps that need new JS state do wait for the JS thread.</p>
+<p><strong>Q3.</strong> What is Expo Go?</p>
+<p><strong>Answer:</strong> A pre-built app that loads your JavaScript without you compiling native code, limited to the native modules Expo ships</p>
+<p>Expo Go is great for starting out, but it only contains Expo's own native modules. Development builds remove that limit.</p>
+<p><strong>Q4.</strong> What is Hermes?</p>
+<p><strong>Answer:</strong> The JavaScript engine used by default in React Native, which compiles your JS to bytecode at build time</p>
+<p>Hermes was built by Meta for React Native; precompiled bytecode means less parsing at launch.</p>
+<h3 id="02-core-components-view-text-image-scrollview"><a href="../level-1/02-core-components/">02 · Core Components: View, Text, Image &amp; ScrollView</a><a class="headerlink" href="#02-core-components-view-text-image-scrollview" title="Permanent link">&para;</a></h3>
+<p><strong>Q5.</strong> What happens if you write &lt;View&gt;Hello&lt;/View&gt;?</p>
+<p><strong>Answer:</strong> It fails with 'Text strings must be rendered within a &lt;Text&gt; component'</p>
+<p>In React Native every string must live inside a &lt;Text&gt;.</p>
+<p><strong>Q6.</strong> Given const unread = 0, what is wrong with &lt;View&gt;{unread &amp;&amp; &lt;Text&gt;new&lt;/Text&gt;}&lt;/View&gt;?</p>
+<p><strong>Answer:</strong> The expression evaluates to the number 0, which is rendered as a bare string and crashes on native</p>
+<p>Make the condition a real boolean, for example unread &gt; 0 &amp;&amp;.</p>
+<p><strong>Q7.</strong> Why must a remote &lt;Image source={{ uri }} /&gt; be given a width and height?</p>
+<p><strong>Answer:</strong> React Native cannot know the size of a remote image at build time, so without a size it has zero size</p>
+<p>Bundled assets via require() have dimensions known to Metro; remote images do not.</p>
+<p><strong>Q8.</strong> Which props make nested &lt;Text&gt; inside &lt;Text&gt; inherit the parent's font size and colour?</p>
+<p><strong>Answer:</strong> None needed: nested Text inherits style from its parent, the only place React Native styles inherit</p>
+<p>React Native has no CSS cascade except for nested Text.</p>
+<h3 id="03-styling-with-stylesheet"><a href="../level-1/03-stylesheet-styling/">03 · Styling with StyleSheet</a><a class="headerlink" href="#03-styling-with-stylesheet" title="Permanent link">&para;</a></h3>
+<p><strong>Q9.</strong> What unit do numeric style values like fontSize: 16 use?</p>
+<p><strong>Answer:</strong> Density-independent pixels (dp on Android, points on iOS)</p>
+<p>The same number gives the same physical size on low- and high-density screens.</p>
+<p><strong>Q10.</strong> Which style prop correctly adds a border?</p>
+<p><strong>Answer:</strong> borderWidth together with borderColor (and optionally borderStyle)</p>
+<p>The CSS border shorthand does not exist in React Native.</p>
+<p><strong>Q11.</strong> What does style={[styles.card, selected &amp;&amp; styles.cardSelected]} do?</p>
+<p><strong>Answer:</strong> Applies the card style, and also the selected style when selected is truthy (later entries win, falsy entries are ignored)</p>
+<p>Style arrays replace CSS modifier classes.</p>
+<p><strong>Q12.</strong> How do you implement dark mode styling in React Native?</p>
+<p><strong>Answer:</strong> In JavaScript, for example with useColorScheme and a theme object, since there are no media queries</p>
+<p>There are no pseudo-classes or media queries; they are done with state and hooks.</p>
+<h3 id="04-flexbox-layout-the-react-native-way"><a href="../level-1/04-flexbox-layout/">04 · Flexbox Layout the React Native Way</a><a class="headerlink" href="#04-flexbox-layout-the-react-native-way" title="Permanent link">&para;</a></h3>
+<p><strong>Q13.</strong> What is the default flexDirection in React Native?</p>
+<p><strong>Answer:</strong> column</p>
+<p>Phones are tall, so the default differs from the web's row.</p>
+<p><strong>Q14.</strong> Your root View has no flex: 1 and its background only covers half the screen. Why?</p>
+<p><strong>Answer:</strong> Without flex: 1 it is only as tall as its content</p>
+<p>flex: 1 makes a view fill the available space.</p>
+<p><strong>Q15.</strong> Siblings with flex: 2 and flex: 1 share the remaining space in what ratio?</p>
+<p><strong>Answer:</strong> 2:1</p>
+<p>flex with a positive number n behaves like flexGrow n, flexShrink 1 and flexBasis 0.</p>
+<p><strong>Q16.</strong> Which property positions children along the cross axis?</p>
+<p><strong>Answer:</strong> alignItems</p>
+<p>justifyContent works on the main axis; alignItems on the cross axis.</p>
+<h3 id="05-touch-feedback-with-pressable"><a href="../level-1/05-pressable-touch/">05 · Touch &amp; Feedback with Pressable</a><a class="headerlink" href="#05-touch-feedback-with-pressable" title="Permanent link">&para;</a></h3>
+<p><strong>Q17.</strong> Why is Pressable preferred over TouchableOpacity in new code?</p>
+<p><strong>Answer:</strong> It is the single modern component, with pressed state functions, Android ripple and hitSlop, replacing the older Touchable family</p>
+<p>Pressable replaces the older components you still see in old code.</p>
+<p><strong>Q18.</strong> For a long press, what happens after delayLongPress elapses?</p>
+<p><strong>Answer:</strong> onLongPress fires and onPress does not</p>
+<p>Press-and-hold triggers onLongPress instead of onPress.</p>
+<p><strong>Q19.</strong> A 20-point icon is hard to tap. What is the idiomatic fix that does not change layout?</p>
+<p><strong>Answer:</strong> Add hitSlop to extend the touch area invisibly</p>
+<p>Platform guidance suggests at least about 44x44 points (Apple) or 48x48 dp (Android).</p>
+<p><strong>Q20.</strong> What does android_ripple do on iOS?</p>
+<p><strong>Answer:</strong> It is ignored</p>
+<p>Combine it with a pressed style for iOS.</p>
+<h3 id="06-textinput-simple-forms"><a href="../level-1/06-textinput-forms/">06 · TextInput &amp; Simple Forms</a><a class="headerlink" href="#06-textinput-simple-forms" title="Permanent link">&para;</a></h3>
+<p><strong>Q21.</strong> Which keyboard type shows a numeric pad without a decimal point?</p>
+<p><strong>Answer:</strong> keyboardType="number-pad"</p>
+<p>decimal-pad adds the decimal separator.</p>
+<p><strong>Q22.</strong> Why should an email field set autoCapitalize="none"?</p>
+<p><strong>Answer:</strong> iOS would otherwise capitalise the first letter and login can fail</p>
+<p>Also turn off autoCorrect for emails and usernames.</p>
+<p><strong>Q23.</strong> How do you move focus to the next field when the user presses the return key?</p>
+<p><strong>Answer:</strong> Use refs and call nextRef.current?.focus() in onSubmitEditing, with returnKeyType="next"</p>
+<p>You handle submit behaviour with refs.</p>
+<p><strong>Q24.</strong> What does onChangeText give you?</p>
+<p><strong>Answer:</strong> The new text as a string directly</p>
+<p>onChange gives a native event whose nativeEvent.text holds the same thing.</p>
+<h3 id="07-lists-with-flatlist-sectionlist"><a href="../level-1/07-flatlist-sectionlist/">07 · Lists with FlatList &amp; SectionList</a><a class="headerlink" href="#07-lists-with-flatlist-sectionlist" title="Permanent link">&para;</a></h3>
+<p><strong>Q25.</strong> Why use FlatList instead of mapping 2,000 items inside a ScrollView?</p>
+<p><strong>Answer:</strong> FlatList virtualizes, rendering only items near the screen and saving memory</p>
+<p>Mounting thousands of native views is slow and can get the app killed.</p>
+<p><strong>Q26.</strong> When is it wrong to use the item's index as keyExtractor?</p>
+<p><strong>Answer:</strong> When items can be inserted, removed or reordered, because React will reuse the wrong row's state</p>
+<p>Use a stable unique ID.</p>
+<p><strong>Q27.</strong> Why should a vertical FlatList not be nested inside a vertical ScrollView?</p>
+<p><strong>Answer:</strong> The outer ScrollView gives it unlimited height so it renders everything and virtualization is lost</p>
+<p>Use ListHeaderComponent and ListFooterComponent for extra content.</p>
+<p><strong>Q28.</strong> Which prop shows a message when the list has no items?</p>
+<p><strong>Answer:</strong> ListEmptyComponent</p>
+<p>It renders when data is empty.</p>
+<h3 id="08-safe-areas-platform-differences-screen-size"><a href="../level-1/08-safe-area-platform/">08 · Safe Areas, Platform Differences &amp; Screen Size</a><a class="headerlink" href="#08-safe-areas-platform-differences-screen-size" title="Permanent link">&para;</a></h3>
+<p><strong>Q29.</strong> What is the safe area?</p>
+<p><strong>Answer:</strong> The part of the screen not covered by system UI such as the notch, status bar and home indicator</p>
+<p>Use react-native-safe-area-context to respect it.</p>
+<p><strong>Q30.</strong> Which hook reads safe-area insets in react-native-safe-area-context?</p>
+<p><strong>Answer:</strong> useSafeAreaInsets</p>
+<p>It is handy for headers and footers that paint under system UI.</p>
+<p><strong>Q31.</strong> Which is the right way to branch on platform for a small value?</p>
+<p><strong>Answer:</strong> Platform.select({ ios: ..., android: ... }) or Platform.OS === 'ios'</p>
+<p>For larger differences use .ios.tsx and .android.tsx files.</p>
+<p><strong>Q32.</strong> Which hook gives the current screen size and updates on rotation?</p>
+<p><strong>Answer:</strong> useWindowDimensions</p>
+<p>The hook re-renders when dimensions change.</p>
+<h3 id="09-debugging-react-native-apps"><a href="../level-1/09-debugging/">09 · Debugging React Native Apps</a><a class="headerlink" href="#09-debugging-react-native-apps" title="Permanent link">&para;</a></h3>
+<p><strong>Q33.</strong> How do you open React Native DevTools from the terminal running Expo?</p>
+<p><strong>Answer:</strong> Press j</p>
+<p>It connects Chrome DevTools to the Hermes engine.</p>
+<p><strong>Q34.</strong> In a LogBox error overlay, how should you read the component stack?</p>
+<p><strong>Answer:</strong> Bottom-up: the bottom component rendered the one above it, so the cause is near the top entry</p>
+<p>The component stack often tells you more than the JS stack.</p>
+<p><strong>Q35.</strong> What happened to the old 'Remote JS Debugging' mode?</p>
+<p><strong>Answer:</strong> It is gone from current React Native; DevTools attaches to Hermes on the device instead</p>
+<p>Running JS in Chrome changed timing and hid real bugs.</p>
+<p><strong>Q36.</strong> A bug appears only in a release build. What is the correct first move?</p>
+<p><strong>Answer:</strong> Reproduce it in a release build and read native logs and crash reports, since release differs from development</p>
+<p>Release builds minify, optimise and skip development checks.</p>
+<h3 id="10-project-habit-tracker"><a href="../level-1/10-project-habit-tracker/">10 · Project — Habit Tracker</a><a class="headerlink" href="#10-project-habit-tracker" title="Permanent link">&para;</a></h3>
+<p><strong>Q37.</strong> Today is 2026-03-05 and doneDates are 03-05, 03-04 and 03-03. What does this print?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">dayKey</span><span class="o">=</span><span class="nx">d</span><span class="p">=&gt;</span><span class="sb">`</span><span class="si">${</span><span class="nx">d</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">()</span><span class="si">}</span><span class="sb">-</span><span class="si">${</span><span class="nb">String</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span><span class="o">+</span><span class="mf">1</span><span class="p">).</span><span class="nx">padStart</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span><span class="s1">'0'</span><span class="p">)</span><span class="si">}</span><span class="sb">-</span><span class="si">${</span><span class="nb">String</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()).</span><span class="nx">padStart</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span><span class="s1">'0'</span><span class="p">)</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kd">const</span><span class="w"> </span><span class="nx">addDays</span><span class="o">=</span><span class="p">(</span><span class="nx">k</span><span class="p">,</span><span class="nx">n</span><span class="p">)=&gt;{</span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">y</span><span class="p">,</span><span class="nx">m</span><span class="p">,</span><span class="nx">d</span><span class="p">]</span><span class="o">=</span><span class="nx">k</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">'-'</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="nb">Number</span><span class="p">);</span><span class="k">return</span><span class="w"> </span><span class="nx">dayKey</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">(</span><span class="nx">y</span><span class="p">,</span><span class="nx">m</span><span class="o">-</span><span class="mf">1</span><span class="p">,</span><span class="nx">d</span><span class="o">+</span><span class="nx">n</span><span class="p">));};</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">currentStreak</span><span class="p">(</span><span class="nx">doneDates</span><span class="p">,</span><span class="nx">today</span><span class="p">){</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">done</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nb">Set</span><span class="p">(</span><span class="nx">doneDates</span><span class="p">);</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">cur</span><span class="o">=</span><span class="nx">done</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">today</span><span class="p">)</span><span class="o">?</span><span class="nx">today</span><span class="o">:</span><span class="nx">addDays</span><span class="p">(</span><span class="nx">today</span><span class="p">,</span><span class="o">-</span><span class="mf">1</span><span class="p">);</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">s</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="k">while</span><span class="p">(</span><span class="nx">done</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">cur</span><span class="p">)){</span><span class="nx">s</span><span class="o">++</span><span class="p">;</span><span class="nx">cur</span><span class="o">=</span><span class="nx">addDays</span><span class="p">(</span><span class="nx">cur</span><span class="p">,</span><span class="o">-</span><span class="mf">1</span><span class="p">);}</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">s</span><span class="p">;</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">}</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">currentStreak</span><span class="p">([</span><span class="s1">'2026-03-05'</span><span class="p">,</span><span class="s1">'2026-03-04'</span><span class="p">,</span><span class="s1">'2026-03-03'</span><span class="p">],</span><span class="s1">'2026-03-05'</span><span class="p">));</span>
+</code></pre></div>
+<p><strong>Answer:</strong> 3</p>
+<p>Three consecutive days ending today. Verified by running it in Node.</p>
+<p><strong>Q38.</strong> Today is 2026-03-05 and the habit was done on 03-04 and 03-03 but not yet today. What does this print?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">dayKey</span><span class="o">=</span><span class="nx">d</span><span class="p">=&gt;</span><span class="sb">`</span><span class="si">${</span><span class="nx">d</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">()</span><span class="si">}</span><span class="sb">-</span><span class="si">${</span><span class="nb">String</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span><span class="o">+</span><span class="mf">1</span><span class="p">).</span><span class="nx">padStart</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span><span class="s1">'0'</span><span class="p">)</span><span class="si">}</span><span class="sb">-</span><span class="si">${</span><span class="nb">String</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()).</span><span class="nx">padStart</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span><span class="s1">'0'</span><span class="p">)</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">const</span><span class="w"> </span><span class="nx">addDays</span><span class="o">=</span><span class="p">(</span><span class="nx">k</span><span class="p">,</span><span class="nx">n</span><span class="p">)=&gt;{</span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">y</span><span class="p">,</span><span class="nx">m</span><span class="p">,</span><span class="nx">d</span><span class="p">]</span><span class="o">=</span><span class="nx">k</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">'-'</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="nb">Number</span><span class="p">);</span><span class="k">return</span><span class="w"> </span><span class="nx">dayKey</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">(</span><span class="nx">y</span><span class="p">,</span><span class="nx">m</span><span class="o">-</span><span class="mf">1</span><span class="p">,</span><span class="nx">d</span><span class="o">+</span><span class="nx">n</span><span class="p">));};</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">currentStreak</span><span class="p">(</span><span class="nx">doneDates</span><span class="p">,</span><span class="nx">today</span><span class="p">){</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">done</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nb">Set</span><span class="p">(</span><span class="nx">doneDates</span><span class="p">);</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">cur</span><span class="o">=</span><span class="nx">done</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">today</span><span class="p">)</span><span class="o">?</span><span class="nx">today</span><span class="o">:</span><span class="nx">addDays</span><span class="p">(</span><span class="nx">today</span><span class="p">,</span><span class="o">-</span><span class="mf">1</span><span class="p">);</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">s</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="k">while</span><span class="p">(</span><span class="nx">done</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">cur</span><span class="p">)){</span><span class="nx">s</span><span class="o">++</span><span class="p">;</span><span class="nx">cur</span><span class="o">=</span><span class="nx">addDays</span><span class="p">(</span><span class="nx">cur</span><span class="p">,</span><span class="o">-</span><span class="mf">1</span><span class="p">);}</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">s</span><span class="p">;</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="p">}</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">currentStreak</span><span class="p">([</span><span class="s1">'2026-03-04'</span><span class="p">,</span><span class="s1">'2026-03-03'</span><span class="p">],</span><span class="s1">'2026-03-05'</span><span class="p">));</span>
+</code></pre></div>
+<p><strong>Answer:</strong> 2</p>
+<p>The streak counts from yesterday if today is not done yet, so it is not broken until the day ends. Verified by running it in Node.</p>
+<p><strong>Q39.</strong> A habit was done on 2026-02-28 and 2026-03-01 (no leap day). With today = 2026-03-01, what does this print?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">dayKey</span><span class="o">=</span><span class="nx">d</span><span class="p">=&gt;</span><span class="sb">`</span><span class="si">${</span><span class="nx">d</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">()</span><span class="si">}</span><span class="sb">-</span><span class="si">${</span><span class="nb">String</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span><span class="o">+</span><span class="mf">1</span><span class="p">).</span><span class="nx">padStart</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span><span class="s1">'0'</span><span class="p">)</span><span class="si">}</span><span class="sb">-</span><span class="si">${</span><span class="nb">String</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()).</span><span class="nx">padStart</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span><span class="s1">'0'</span><span class="p">)</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kd">const</span><span class="w"> </span><span class="nx">addDays</span><span class="o">=</span><span class="p">(</span><span class="nx">k</span><span class="p">,</span><span class="nx">n</span><span class="p">)=&gt;{</span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">y</span><span class="p">,</span><span class="nx">m</span><span class="p">,</span><span class="nx">d</span><span class="p">]</span><span class="o">=</span><span class="nx">k</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">'-'</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="nb">Number</span><span class="p">);</span><span class="k">return</span><span class="w"> </span><span class="nx">dayKey</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">(</span><span class="nx">y</span><span class="p">,</span><span class="nx">m</span><span class="o">-</span><span class="mf">1</span><span class="p">,</span><span class="nx">d</span><span class="o">+</span><span class="nx">n</span><span class="p">));};</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">currentStreak</span><span class="p">(</span><span class="nx">doneDates</span><span class="p">,</span><span class="nx">today</span><span class="p">){</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">done</span><span class="o">=</span><span class="ow">new</span><span class="w"> </span><span class="nb">Set</span><span class="p">(</span><span class="nx">doneDates</span><span class="p">);</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">cur</span><span class="o">=</span><span class="nx">done</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">today</span><span class="p">)</span><span class="o">?</span><span class="nx">today</span><span class="o">:</span><span class="nx">addDays</span><span class="p">(</span><span class="nx">today</span><span class="p">,</span><span class="o">-</span><span class="mf">1</span><span class="p">);</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">s</span><span class="o">=</span><span class="mf">0</span><span class="p">;</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">  </span><span class="k">while</span><span class="p">(</span><span class="nx">done</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">cur</span><span class="p">)){</span><span class="nx">s</span><span class="o">++</span><span class="p">;</span><span class="nx">cur</span><span class="o">=</span><span class="nx">addDays</span><span class="p">(</span><span class="nx">cur</span><span class="p">,</span><span class="o">-</span><span class="mf">1</span><span class="p">);}</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">s</span><span class="p">;</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="p">}</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">currentStreak</span><span class="p">([</span><span class="s1">'2026-02-28'</span><span class="p">,</span><span class="s1">'2026-03-01'</span><span class="p">],</span><span class="s1">'2026-03-01'</span><span class="p">));</span>
+</code></pre></div>
+<p><strong>Answer:</strong> 2</p>
+<p>addDays goes through new Date(y, m-1, d+delta), so month boundaries are handled. Verified by running it in Node.</p>
+<p><strong>Q40.</strong> Why does the project store dates as local YYYY-MM-DD strings instead of Date objects?</p>
+<p><strong>Answer:</strong> It avoids time-zone surprises from comparing Date objects created at different times of day</p>
+<p>A day key is the same however and whenever it is created.</p>
+<h2 id="level-2-navigation-state-data">Level 2 · Navigation, State &amp; Data<a class="headerlink" href="#level-2-navigation-state-data" title="Permanent link">&para;</a></h2>
+<h3 id="01-navigation-concepts-stacks-tabs-modals"><a href="../level-2/01-navigation-concepts/">01 · Navigation Concepts: Stacks, Tabs &amp; Modals</a><a class="headerlink" href="#01-navigation-concepts-stacks-tabs-modals" title="Permanent link">&para;</a></h3>
+<p><strong>Q41.</strong> What happens to the List screen when you push Details onto a stack?</p>
+<p><strong>Answer:</strong> List stays mounted underneath, keeping its state and scroll position</p>
+<p>Screens under the top of a stack stay mounted.</p>
+<p><strong>Q42.</strong> What is the usual structure for a tab navigator?</p>
+<p><strong>Answer:</strong> Each tab holds its own stack so each keeps an independent history</p>
+<p>Switching tabs keeps each tab's place.</p>
+<p><strong>Q43.</strong> What is a modal screen for?</p>
+<p><strong>Answer:</strong> A self-contained task presented over everything else, such as composing or adding an item, which is dismissed rather than navigated back from</p>
+<p>Modals rise from the bottom and are dismissed downward.</p>
+<p><strong>Q44.</strong> Why does a stack keeping screens mounted matter for state design?</p>
+<p><strong>Answer:</strong> A state change can re-render screens the user cannot see, so subscribe narrowly</p>
+<p>This idea returns in the app-state lesson.</p>
+<h3 id="02-file-based-routing-with-expo-router"><a href="../level-2/02-expo-router/">02 · File-Based Routing with Expo Router</a><a class="headerlink" href="#02-file-based-routing-with-expo-router" title="Permanent link">&para;</a></h3>
+<p><strong>Q45.</strong> In Expo Router, what does a file app/settings/notifications.tsx define?</p>
+<p><strong>Answer:</strong> The route /settings/notifications</p>
+<p>Every file in app/ is a route.</p>
+<p><strong>Q46.</strong> What does _layout.tsx define?</p>
+<p><strong>Answer:</strong> The navigator (for example Stack or Tabs) for its folder</p>
+<p>Layouts default-export a navigator.</p>
+<p><strong>Q47.</strong> Which element shows unmatched URLs?</p>
+<p><strong>Answer:</strong> +not-found.tsx</p>
+<p>It is a special file in app/.</p>
+<p><strong>Q48.</strong> What is the difference between router.push and router.replace?</p>
+<p><strong>Answer:</strong> push adds a screen to the stack; replace swaps the current screen without growing history</p>
+<p>Use replace for flows like sign-in where back should not return.</p>
+<h3 id="03-route-params-deep-links-typed-routes"><a href="../level-2/03-params-deep-links/">03 · Route Params, Deep Links &amp; Typed Routes</a><a class="headerlink" href="#03-route-params-deep-links-typed-routes" title="Permanent link">&para;</a></h3>
+<p><strong>Q49.</strong> What does the file app/habit/[id].tsx mean?</p>
+<p><strong>Answer:</strong> A dynamic route where id is a parameter, such as /habit/42</p>
+<p>Read it with useLocalSearchParams.</p>
+<p><strong>Q50.</strong> If you navigate with params: { count: 3 }, what type is count on the receiving screen?</p>
+<p><strong>Answer:</strong> string, because URL params are strings</p>
+<p>The generic is a promise to TypeScript, not a runtime check; parse and validate.</p>
+<p><strong>Q51.</strong> What belongs in route params?</p>
+<p><strong>Answer:</strong> Identifiers and view state such as an id, tab, filter or sort</p>
+<p>Objects in URLs bloat them and go stale.</p>
+<p><strong>Q52.</strong> Why prefer useLocalSearchParams over useGlobalSearchParams?</p>
+<p><strong>Answer:</strong> Global params re-render background screens whenever the user navigates anywhere</p>
+<p>Screens stay mounted, so global params cause extra renders.</p>
+<h3 id="04-app-state-context-usereducer-zustand"><a href="../level-2/04-app-state/">04 · App State: Context, useReducer &amp; Zustand</a><a class="headerlink" href="#04-app-state-context-usereducer-zustand" title="Permanent link">&para;</a></h3>
+<p><strong>Q53.</strong> What does this print?</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">reducer</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span><span class="nx">a</span><span class="p">){</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="k">switch</span><span class="p">(</span><span class="nx">a</span><span class="p">.</span><span class="nx">type</span><span class="p">){</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s1">'added'</span><span class="o">:</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="p">[...</span><span class="nx">state</span><span class="p">,{</span><span class="nx">id</span><span class="o">:</span><span class="nx">a</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span><span class="nx">name</span><span class="o">:</span><span class="nx">a</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span><span class="nx">doneDates</span><span class="o">:</span><span class="p">[],</span><span class="nx">archived</span><span class="o">:</span><span class="kc">false</span><span class="p">}];</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="s1">'toggled'</span><span class="o">:</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nx">state</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">h</span><span class="p">=&gt;</span><span class="nx">h</span><span class="p">.</span><span class="nx">id</span><span class="o">!==</span><span class="nx">a</span><span class="p">.</span><span class="nx">id</span><span class="o">?</span><span class="nx">h</span><span class="o">:</span><span class="p">{...</span><span class="nx">h</span><span class="p">,</span><span class="nx">doneDates</span><span class="o">:</span><span class="nx">h</span><span class="p">.</span><span class="nx">doneDates</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="nx">a</span><span class="p">.</span><span class="nx">day</span><span class="p">)</span><span class="o">?</span><span class="nx">h</span><span class="p">.</span><span class="nx">doneDates</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">d</span><span class="p">=&gt;</span><span class="nx">d</span><span class="o">!==</span><span class="nx">a</span><span class="p">.</span><span class="nx">day</span><span class="p">)</span><span class="o">:</span><span class="p">[...</span><span class="nx">h</span><span class="p">.</span><span class="nx">doneDates</span><span class="p">,</span><span class="nx">a</span><span class="p">.</span><span class="nx">day</span><span class="p">]});</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="k">default</span><span class="o">:</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nx">state</span><span class="p">;</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">  </span><span class="p">}</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="p">}</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="kd">let</span><span class="w"> </span><span class="nx">s</span><span class="o">=</span><span class="p">[];</span><span class="nx">s</span><span class="o">=</span><span class="nx">reducer</span><span class="p">(</span><span class="nx">s</span><span class="p">,{</span><span class="nx">type</span><span class="o">:</span><span class="s1">'added'</span><span class="p">,</span><span class="nx">id</span><span class="o">:</span><span class="s1">'a'</span><span class="p">,</span><span class="nx">name</span><span class="o">:</span><span class="s1">'Run'</span><span class="p">});</span><span class="nx">s</span><span class="o">=</span><span class="nx">reducer</span><span class="p">(</span><span class="nx">s</span><span class="p">,{</span><span class="nx">type</span><span class="o">:</span><span class="s1">'toggled'</span><span class="p">,</span><span class="nx">id</span><span class="o">:</span><span class="s1">'a'</span><span class="p">,</span><span class="nx">day</span><span class="o">:</span><span class="s1">'d1'</span><span class="p">});</span><span class="nx">s</span><span class="o">=</span><span class="nx">reducer</span><span class="p">(</span><span class="nx">s</span><span class="p">,{</span><span class="nx">type</span><span class="o">:</span><span class="s1">'toggled'</span><span class="p">,</span><span class="nx">id</span><span class="o">:</span><span class="s1">'a'</span><span class="p">,</span><span class="nx">day</span><span class="o">:</span><span class="s1">'d1'</span><span class="p">});</span><span class="nx">s</span><span class="o">=</span><span class="nx">reducer</span><span class="p">(</span><span class="nx">s</span><span class="p">,{</span><span class="nx">type</span><span class="o">:</span><span class="s1">'toggled'</span><span class="p">,</span><span class="nx">id</span><span class="o">:</span><span class="s1">'a'</span><span class="p">,</span><span class="nx">day</span><span class="o">:</span><span class="s1">'d2'</span><span class="p">});</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="mf">0</span><span class="p">].</span><span class="nx">doneDates</span><span class="p">));</span>
+</code></pre></div>
+<p><strong>Answer:</strong> ["d2"]</p>
+<p>Toggling twice removes d1; d2 is then added. Verified by running it in Node.</p>
+<p><strong>Q54.</strong> Where should a search box's text live?</p>
+<p><strong>Answer:</strong> In local useState in the component, not in a global store</p>
+<p>Putting keystrokes in global state re-renders the whole app.</p>
+<p><strong>Q55.</strong> Why do Zustand selectors help in React Native apps?</p>
+<p><strong>Answer:</strong> A component re-renders only when the selected slice changes, which matters because screens stay mounted</p>
+<p>Subscribe to exactly what each screen needs.</p>
+<p><strong>Q56.</strong> Which kind of state belongs in a data-fetching cache such as TanStack Query?</p>
+<p><strong>Answer:</strong> Server state owned by a backend</p>
+<p>Do not copy server data into a global store where it goes stale.</p>
+<h3 id="05-fetching-data-with-tanstack-query"><a href="../level-2/05-data-fetching/">05 · Fetching Data with TanStack Query</a><a class="headerlink" href="#05-fetching-data-with-tanstack-query" title="Permanent link">&para;</a></h3>
+<p><strong>Q57.</strong> What does the queryKey identify?</p>
+<p><strong>Answer:</strong> The cached data; components using the same key share one cache entry and request</p>
+<p>Include every input of the query in the key, such as the search term.</p>
+<p><strong>Q58.</strong> Why must a queryFn throw on a non-OK response?</p>
+<p><strong>Answer:</strong> fetch does not reject on HTTP errors like 500, so you must throw for Query to see an error</p>
+<p>Check res.ok and throw.</p>
+<p><strong>Q59.</strong> What does the API quirk 'meals: null' for no results mean for your client?</p>
+<p><strong>Answer:</strong> Normalise it to an empty array in your API layer</p>
+<p>Keep API oddities out of components.</p>
+<p><strong>Q60.</strong> What does staleTime control?</p>
+<p><strong>Answer:</strong> How long fetched data is considered fresh before a background refetch is allowed</p>
+<p>Cached data renders instantly while stale data refetches in the background.</p>
+<h3 id="06-local-persistence-asyncstorage-securestore-sqlite"><a href="../level-2/06-local-persistence/">06 · Local Persistence: AsyncStorage, SecureStore &amp; SQLite</a><a class="headerlink" href="#06-local-persistence-asyncstorage-securestore-sqlite" title="Permanent link">&para;</a></h3>
+<p><strong>Q61.</strong> Where should an auth token be stored?</p>
+<p><strong>Answer:</strong> In SecureStore (the Keychain / Keystore)</p>
+<p>AsyncStorage is unencrypted; treat it like a text file.</p>
+<p><strong>Q62.</strong> Which store suits records you filter, sort and join?</p>
+<p><strong>Answer:</strong> SQLite via expo-sqlite</p>
+<p>AsyncStorage is for small key-value data.</p>
+<p><strong>Q63.</strong> Why does the prefs example merge saved JSON with defaultPrefs?</p>
+<p><strong>Answer:</strong> Adding a new preference in a later version does not break users who saved the old shape</p>
+<p>Defensive loading with try/catch also protects against corrupt JSON.</p>
+<p><strong>Q64.</strong> What is the purpose of a version in a key like 'prefs:v1' or in SQLite user_version?</p>
+<p><strong>Answer:</strong> It lets a breaking change migrate data from one schema to the next</p>
+<p>Versioned migrations keep existing users' data safe.</p>
+<h3 id="07-forms-validation-with-react-hook-form-and-zod"><a href="../level-2/07-forms-validation/">07 · Forms &amp; Validation with React Hook Form and Zod</a><a class="headerlink" href="#07-forms-validation-with-react-hook-form-and-zod" title="Permanent link">&para;</a></h3>
+<p><strong>Q65.</strong> What does z.coerce.number() do in a form schema?</p>
+<p><strong>Answer:</strong> Turns the string from a TextInput into a number, then validates it</p>
+<p>TextInput values are always strings.</p>
+<p><strong>Q66.</strong> What is .refine used for?</p>
+<p><strong>Answer:</strong> Cross-field or custom rules, with a path so the error attaches to the right field</p>
+<p>For example: end date must be after start date.</p>
+<p><strong>Q67.</strong> Why does comparing 'YYYY-MM-DD' strings with &gt;= work?</p>
+<p><strong>Answer:</strong> The format sorts lexicographically in date order</p>
+<p>A neat benefit of ISO-style dates.</p>
+<p><strong>Q68.</strong> What do z.input and z.output give you?</p>
+<p><strong>Answer:</strong> Two types: the raw form values and the parsed result</p>
+<p>For example string vs number after coercion.</p>
+<h3 id="08-images-fonts-assets"><a href="../level-2/08-images-fonts-assets/">08 · Images, Fonts &amp; Assets</a><a class="headerlink" href="#08-images-fonts-assets" title="Permanent link">&para;</a></h3>
+<p><strong>Q69.</strong> What does an @2x and @3x file next to image.png do?</p>
+<p><strong>Answer:</strong> Metro picks the variant matching the device density automatically</p>
+<p>Layout uses the 1x size in points.</p>
+<p><strong>Q70.</strong> Why can't you write require(<code>./icons/${name}.png</code>)?</p>
+<p><strong>Answer:</strong> require paths must be static strings that Metro resolves at bundle time; use a map of requires</p>
+<p>Build an object of static requires.</p>
+<p><strong>Q71.</strong> What does cachePolicy="memory-disk" give you in expo-image?</p>
+<p><strong>Answer:</strong> Decoded images in memory and files on disk so scrolling back or reopening does not refetch</p>
+<p>Plus placeholders like BlurHash and transitions.</p>
+<p><strong>Q72.</strong> What is a BlurHash?</p>
+<p><strong>Answer:</strong> A short string that decodes to a blurry preview shown while the real image loads</p>
+<p>Generate it on the server when the image is uploaded.</p>
+<h3 id="09-the-keyboard-modals-bottom-sheets"><a href="../level-2/09-keyboard-modals/">09 · The Keyboard, Modals &amp; Bottom Sheets</a><a class="headerlink" href="#09-the-keyboard-modals-bottom-sheets" title="Permanent link">&para;</a></h3>
+<p><strong>Q73.</strong> On iOS, what does the software keyboard do to your layout?</p>
+<p><strong>Answer:</strong> Nothing: the keyboard covers it and you must move content yourself</p>
+<p>Use KeyboardAvoidingView or insets.</p>
+<p><strong>Q74.</strong> Which KeyboardAvoidingView behavior is the most predictable on iOS?</p>
+<p><strong>Answer:</strong> padding</p>
+<p>It adds bottom padding equal to the keyboard height.</p>
+<p><strong>Q75.</strong> What is keyboardVerticalOffset for?</p>
+<p><strong>Answer:</strong> Compensating for anything above the view, usually the navigation header</p>
+<p>Wrong values leave the composer hidden or floating.</p>
+<p><strong>Q76.</strong> Why is edge-to-edge relevant to keyboard handling on Android?</p>
+<p><strong>Answer:</strong> The app draws behind system bars and the keyboard is reported as an inset, so you often must handle it explicitly</p>
+<p>Test on both platforms, ideally on a real device.</p>
+<h3 id="10-project-offline-friendly-recipe-book"><a href="../level-2/10-project-recipe-book/">10 · Project — Offline-Friendly Recipe Book</a><a class="headerlink" href="#10-project-offline-friendly-recipe-book" title="Permanent link">&para;</a></h3>
+<p><strong>Q77.</strong> Why are favourites stored with the full recipe JSON in SQLite?</p>
+<p><strong>Answer:</strong> So a favourited recipe opens offline</p>
+<p>Network first, local fallback.</p>
+<p><strong>Q78.</strong> What does the recipe detail deep link recipebook://recipe/52785 require?</p>
+<p><strong>Answer:</strong> A URL scheme configured in app.json and a route app/recipe/[id].tsx</p>
+<p>Expo Router gives every screen a URL.</p>
+<p><strong>Q79.</strong> What is an optimistic update for the favourite heart?</p>
+<p><strong>Answer:</strong> Update the UI immediately and roll back if the write fails</p>
+<p>It feels instant.</p>
+<p><strong>Q80.</strong> Why is loadRecipe written as a pure function?</p>
+<p><strong>Answer:</strong> It can be tested without React or a device</p>
+<p>Pure logic is the cheapest layer to test.</p>
+<h2 id="level-3-native-capabilities-polish">Level 3 · Native Capabilities &amp; Polish<a class="headerlink" href="#level-3-native-capabilities-polish" title="Permanent link">&para;</a></h2>
+<h3 id="01-under-the-hood-threads-jsi-the-new-architecture"><a href="../level-3/01-architecture-new-arch/">01 · Under the Hood: Threads, JSI &amp; the New Architecture</a><a class="headerlink" href="#01-under-the-hood-threads-jsi-the-new-architecture" title="Permanent link">&para;</a></h3>
+<p><strong>Q81.</strong> Roughly how long is the per-frame budget at 60 Hz?</p>
+<p><strong>Answer:</strong> About 16.7 ms</p>
+<p>Higher refresh rates leave less.</p>
+<p><strong>Q82.</strong> How did the old bridge communicate between JS and native?</p>
+<p><strong>Answer:</strong> By serialising calls to JSON and flushing them asynchronously in a queue</p>
+<p>This caused overhead and prevented synchronous calls.</p>
+<p><strong>Q83.</strong> What does JSI let JavaScript do in the New Architecture?</p>
+<p><strong>Answer:</strong> Hold direct references to native objects and call them, including synchronously, without JSON serialisation</p>
+<p>JSI underpins Fabric and TurboModules.</p>
+<p><strong>Q84.</strong> Since which React Native version is the New Architecture the default?</p>
+<p><strong>Answer:</strong> 0.76 (late 2024)</p>
+<p>Older libraries may still need compatibility work.</p>
+<h3 id="02-device-apis-camera-location-haptics"><a href="../level-3/02-device-apis/">02 · Device APIs: Camera, Location &amp; Haptics</a><a class="headerlink" href="#02-device-apis-camera-location-haptics" title="Permanent link">&para;</a></h3>
+<p><strong>Q85.</strong> Which can you NOT test properly on the iOS Simulator?</p>
+<p><strong>Answer:</strong> Camera and haptics (use a real device)</p>
+<p>Simulators are not phones.</p>
+<p><strong>Q86.</strong> What is a good use of haptics?</p>
+<p><strong>Answer:</strong> Tie them to meaningful state changes such as a habit completed, using the semantic types</p>
+<p>Users can disable system haptics, in which case calls do nothing.</p>
+<p><strong>Q87.</strong> What does getLastKnownPositionAsync give you?</p>
+<p><strong>Answer:</strong> A cheap, instant but possibly old position, good for a first guess</p>
+<p>getCurrentPositionAsync with accuracy Balanced gets a fresh fix.</p>
+<p><strong>Q88.</strong> What battery trade-off applies to location?</p>
+<p><strong>Answer:</strong> Higher accuracy and continuous updates use more battery, so pick the lowest accuracy that works</p>
+<p>Choose accuracy for the feature.</p>
+<h3 id="03-permissions-done-right"><a href="../level-3/03-permissions/">03 · Permissions Done Right</a><a class="headerlink" href="#03-permissions-done-right" title="Permanent link">&para;</a></h3>
+<p><strong>Q89.</strong> On iOS, how many times is a permission's system prompt shown?</p>
+<p><strong>Answer:</strong> At most once; later requests return denied immediately</p>
+<p>After that only Settings can change it.</p>
+<p><strong>Q90.</strong> What does canAskAgain: false mean?</p>
+<p><strong>Answer:</strong> The system will not show a prompt again, so send the user to Settings</p>
+<p>Explain why and link to Settings.</p>
+<p><strong>Q91.</strong> When should you ask for notification permission?</p>
+<p><strong>Answer:</strong> When the user turns on a reminder, with context, not at first launch</p>
+<p>Ask at the moment of value.</p>
+<p><strong>Q92.</strong> What happens on iOS if an app requests a permission without a usage description string?</p>
+<p><strong>Answer:</strong> It crashes (and App Review rejects vague strings)</p>
+<p>Set strings in config plugins.</p>
+<h3 id="04-local-push-notifications"><a href="../level-3/04-notifications/">04 · Local &amp; Push Notifications</a><a class="headerlink" href="#04-local-push-notifications" title="Permanent link">&para;</a></h3>
+<p><strong>Q93.</strong> What is a local notification?</p>
+<p><strong>Answer:</strong> One scheduled on the device by your app, with no server needed</p>
+<p>Remote push comes from a server.</p>
+<p><strong>Q94.</strong> What do Android notification channels do?</p>
+<p><strong>Answer:</strong> Group notifications so users can control them separately in system settings</p>
+<p>Create a channel before requesting permission on Android 13+.</p>
+<p><strong>Q95.</strong> By default, what happens to a notification that arrives while your app is open?</p>
+<p><strong>Answer:</strong> It is not shown unless you set a notification handler</p>
+<p>Use setNotificationHandler once at startup.</p>
+<p><strong>Q96.</strong> Where can remote push be tested?</p>
+<p><strong>Answer:</strong> On a physical device, using a development build rather than Expo Go on Android</p>
+<p>iOS also needs an Apple Developer account for APNs credentials.</p>
+<h3 id="05-animations-with-animated-reanimated"><a href="../level-3/05-animations/">05 · Animations with Animated &amp; Reanimated</a><a class="headerlink" href="#05-animations-with-animated-reanimated" title="Permanent link">&para;</a></h3>
+<p><strong>Q97.</strong> Which properties can the Animated native driver animate?</p>
+<p><strong>Answer:</strong> Non-layout properties such as transform and opacity</p>
+<p>Layout properties need the JS driver.</p>
+<p><strong>Q98.</strong> What are Reanimated worklets?</p>
+<p><strong>Answer:</strong> Small JavaScript functions run on the UI thread in a separate JS runtime</p>
+<p>useAnimatedStyle's callback is one.</p>
+<p><strong>Q99.</strong> What is a shared value?</p>
+<p><strong>Answer:</strong> State both threads can read and write, used to drive animations</p>
+<p>Created with useSharedValue.</p>
+<p><strong>Q100.</strong> Which function describes a spring-style move of a shared value?</p>
+<p><strong>Answer:</strong> withSpring</p>
+<p>Others include withTiming, withDecay, withSequence.</p>
+<h3 id="06-gestures-with-react-native-gesture-handler"><a href="../level-3/06-gestures/">06 · Gestures with React Native Gesture Handler</a><a class="headerlink" href="#06-gestures-with-react-native-gesture-handler" title="Permanent link">&para;</a></h3>
+<p><strong>Q101.</strong> Why does Gesture Handler feel smoother than the built-in responder system?</p>
+<p><strong>Answer:</strong> It recognises gestures natively on the UI thread, so a busy JS thread does not make gestures sticky</p>
+<p>Paired with Reanimated, the loop avoids JS.</p>
+<p><strong>Q102.</strong> What must wrap your app to use Gesture Handler?</p>
+<p><strong>Answer:</strong> GestureHandlerRootView as close to the root as possible</p>
+<p>With flex: 1.</p>
+<p><strong>Q103.</strong> How do you attach a gesture to a view?</p>
+<p><strong>Answer:</strong> Build it with Gesture.Pan() etc. and pass it to GestureDetector</p>
+<p>The 2.x builder API.</p>
+<p><strong>Q104.</strong> Why should you let npx expo install choose the Gesture Handler version?</p>
+<p><strong>Answer:</strong> It picks the version matching your SDK, which may differ from npm's latest major</p>
+<p>APIs differ between majors.</p>
+<h3 id="07-accessibility-in-react-native"><a href="../level-3/07-accessibility/">07 · Accessibility in React Native</a><a class="headerlink" href="#07-accessibility-in-react-native" title="Permanent link">&para;</a></h3>
+<p><strong>Q105.</strong> What does a screen reader announce for a focused element, roughly in order?</p>
+<p><strong>Answer:</strong> Label, role, state, then optional hint</p>
+<p>Give each interactive element all four.</p>
+<p><strong>Q106.</strong> Which prop sets the spoken name of an icon-only button?</p>
+<p><strong>Answer:</strong> accessibilityLabel</p>
+<p>It defaults to text content.</p>
+<p><strong>Q107.</strong> Which prop describes checked or disabled?</p>
+<p><strong>Answer:</strong> accessibilityState</p>
+<p>Keep it in sync with the visual state.</p>
+<p><strong>Q108.</strong> What should you do for users who enable Reduce Motion?</p>
+<p><strong>Answer:</strong> Reduce or skip non-essential animation, for example by checking the setting</p>
+<p>Respect the OS accessibility settings.</p>
+<h3 id="08-writing-a-native-module-with-the-expo-modules-api"><a href="../level-3/08-native-modules/">08 · Writing a Native Module with the Expo Modules API</a><a class="headerlink" href="#08-writing-a-native-module-with-the-expo-modules-api" title="Permanent link">&para;</a></h3>
+<p><strong>Q109.</strong> When should you write a native module?</p>
+<p><strong>Answer:</strong> When you need a platform capability that no maintained library provides</p>
+<p>Check Expo SDK and React Native Directory first.</p>
+<p><strong>Q110.</strong> What does the Expo Modules API let you write?</p>
+<p><strong>Answer:</strong> Native modules in Swift and Kotlin with a declarative DSL</p>
+<p>It generates the JSI bindings for you.</p>
+<p><strong>Q111.</strong> What does create-expo-module --local do?</p>
+<p><strong>Answer:</strong> Scaffolds a module inside your app's modules/ folder, autolinked</p>
+<p>Local modules live in your repo.</p>
+<p><strong>Q112.</strong> Why does a native module require a rebuild?</p>
+<p><strong>Answer:</strong> Native code changes are compiled into the binary and cannot be hot-reloaded or sent over the air</p>
+<p>Use a development build.</p>
+<h3 id="09-development-builds-prebuild-config-plugins"><a href="../level-3/09-dev-builds-prebuild/">09 · Development Builds, Prebuild &amp; Config Plugins</a><a class="headerlink" href="#09-development-builds-prebuild-config-plugins" title="Permanent link">&para;</a></h3>
+<p><strong>Q113.</strong> What is a development build?</p>
+<p><strong>Answer:</strong> Your own debug app containing exactly your native dependencies, with the same dev tools as Expo Go</p>
+<p>Use expo-dev-client.</p>
+<p><strong>Q114.</strong> What does npx expo prebuild do?</p>
+<p><strong>Answer:</strong> Generates the ios/ and android/ projects from a template, app config and config plugins</p>
+<p>Continuous Native Generation lets you not commit them.</p>
+<p><strong>Q115.</strong> When do you rebuild the development build?</p>
+<p><strong>Answer:</strong> When the native side changes: dependencies or config</p>
+<p>JS changes use Fast Refresh.</p>
+<p><strong>Q116.</strong> What is a config plugin?</p>
+<p><strong>Answer:</strong> Code that edits native project files such as Info.plist or the manifest during prebuild</p>
+<p>Library authors and you can write them.</p>
+<h3 id="10-project-field-notes-with-camera-location-offline-sync"><a href="../level-3/10-project-field-notes/">10 · Project — Field Notes with Camera, Location &amp; Offline Sync</a><a class="headerlink" href="#10-project-field-notes-with-camera-location-offline-sync" title="Permanent link">&para;</a></h3>
+<p><strong>Q117.</strong> In Field Notes, why is every note saved locally first?</p>
+<p><strong>Answer:</strong> Saving must never depend on the network; syncing happens afterwards</p>
+<p>Offline-first design.</p>
+<p><strong>Q118.</strong> Why are photos copied out of the cache into the document directory?</p>
+<p><strong>Answer:</strong> The OS can delete cache files; documents persist</p>
+<p>Persist what matters.</p>
+<p><strong>Q119.</strong> What is exponential backoff in sync retries?</p>
+<p><strong>Answer:</strong> Waiting progressively longer after each failure before retrying</p>
+<p>It avoids hammering a struggling server.</p>
+<p><strong>Q120.</strong> How do you avoid uploading the same note version twice?</p>
+<p><strong>Answer:</strong> Track sync state and version per note and make the upload idempotent</p>
+<p>Never upload twice for the same version.</p>
+<h2 id="level-4-production-shipping">Level 4 · Production &amp; Shipping<a class="headerlink" href="#level-4-production-shipping" title="Permanent link">&para;</a></h2>
+<h3 id="01-performance-finding-fixing-jank"><a href="../level-4/01-performance-profiling/">01 · Performance: Finding &amp; Fixing Jank</a><a class="headerlink" href="#01-performance-finding-fixing-jank" title="Permanent link">&para;</a></h3>
+<p><strong>Q121.</strong> Where should you measure performance?</p>
+<p><strong>Answer:</strong> In a release build on a low-to-mid-range Android phone</p>
+<p>Development builds are much slower.</p>
+<p><strong>Q122.</strong> JS frame rate drops but UI frame rate is fine. What does that suggest?</p>
+<p><strong>Answer:</strong> JavaScript is doing too much, such as heavy renders or big parsing</p>
+<p>Taps feel delayed; scrolling stays smooth.</p>
+<p><strong>Q123.</strong> Which tool shows why a component re-rendered?</p>
+<p><strong>Answer:</strong> React DevTools Profiler with 'Record why each component rendered'</p>
+<p>Open DevTools with j.</p>
+<p><strong>Q124.</strong> A whole list re-renders when one item changes. Typical fix?</p>
+<p><strong>Answer:</strong> memo the row, use stable callbacks and keep item identity stable</p>
+<p>Measure again after the change.</p>
+<h3 id="02-big-lists-tuning-flatlist-using-flashlist"><a href="../level-4/02-list-performance/">02 · Big Lists: Tuning FlatList &amp; Using FlashList</a><a class="headerlink" href="#02-big-lists-tuning-flatlist-using-flashlist" title="Permanent link">&para;</a></h3>
+<p><strong>Q125.</strong> What does getItemLayout enable?</p>
+<p><strong>Answer:</strong> Skips measurement and makes scrollToIndex exact, for fixed or computable row heights</p>
+<p>It tells the list size and offset up front.</p>
+<p><strong>Q126.</strong> What does windowSize control?</p>
+<p><strong>Answer:</strong> How many screen-heights of content stay mounted (default 21)</p>
+<p>Lower saves memory but may show blanks on fast flings.</p>
+<p><strong>Q127.</strong> How does FlashList differ from FlatList?</p>
+<p><strong>Answer:</strong> It recycles views instead of mounting and unmounting them</p>
+<p>Set recyclingKey and use item types.</p>
+<p><strong>Q128.</strong> What is the first step before tuning list props?</p>
+<p><strong>Answer:</strong> Fix the rows: memoise, keep them shallow, size images and avoid heavy render work</p>
+<p>No setting rescues a slow row.</p>
+<h3 id="03-unit-component-tests-with-jest-and-rntl"><a href="../level-4/03-testing-rntl/">03 · Unit &amp; Component Tests with Jest and RNTL</a><a class="headerlink" href="#03-unit-component-tests-with-jest-and-rntl" title="Permanent link">&para;</a></h3>
+<p><strong>Q129.</strong> In RNTL 14, how do you call render?</p>
+<p><strong>Answer:</strong> await render(...), because render is async</p>
+<p>Forgetting await gives 'render function has not been called'.</p>
+<p><strong>Q130.</strong> What does the jest-expo preset do?</p>
+<p><strong>Answer:</strong> Configures Babel like Metro, sets up React Native mocks and mocks native Expo modules</p>
+<p>Tests run in Node.</p>
+<p><strong>Q131.</strong> In which order should you prefer queries?</p>
+<p><strong>Answer:</strong> By role, label and text as users find them, before testID</p>
+<p>Query like a user.</p>
+<p><strong>Q132.</strong> What do component tests NOT tell you?</p>
+<p><strong>Answer:</strong> Whether the compiled app launches, native modules link or the keyboard covers a button</p>
+<p>That needs E2E.</p>
+<h3 id="04-end-to-end-testing-with-maestro-detox"><a href="../level-4/04-e2e-testing/">04 · End-to-End Testing with Maestro &amp; Detox</a><a class="headerlink" href="#04-end-to-end-testing-with-maestro-detox" title="Permanent link">&para;</a></h3>
+<p><strong>Q133.</strong> How does Maestro drive the app?</p>
+<p><strong>Answer:</strong> From outside through the accessibility layer, with YAML flows</p>
+<p>Black box.</p>
+<p><strong>Q134.</strong> How does Detox synchronise with the app?</p>
+<p><strong>Answer:</strong> It tracks the app's busy state and waits until idle</p>
+<p>Grey box.</p>
+<p><strong>Q135.</strong> Why write few E2E tests?</p>
+<p><strong>Answer:</strong> They are slower and more fragile, so cover journeys that must never break</p>
+<p>Sign-in, core create flow, purchase.</p>
+<p><strong>Q136.</strong> What is testID for?</p>
+<p><strong>Answer:</strong> A stable handle for elements without stable text, mapped to the accessibility identifier or resource-id</p>
+<p>Prefer labels and visible text first.</p>
+<h3 id="05-mobile-security-secrets-storage-the-network"><a href="../level-4/05-security/">05 · Mobile Security: Secrets, Storage &amp; the Network</a><a class="headerlink" href="#05-mobile-security-secrets-storage-the-network" title="Permanent link">&para;</a></h3>
+<p><strong>Q137.</strong> What happens to a value set as EXPO_PUBLIC_MAPS_KEY?</p>
+<p><strong>Answer:</strong> It is inlined into the JS bundle and visible to anyone who unpacks the app</p>
+<p>The lesson found it as plain text in the Hermes bytecode.</p>
+<p><strong>Q138.</strong> Where must private keys such as payment secrets live?</p>
+<p><strong>Answer:</strong> On your server, which the app calls after authenticating the user</p>
+<p>Hiding a button does not protect an endpoint.</p>
+<p><strong>Q139.</strong> Where does mobile security ultimately live?</p>
+<p><strong>Answer:</strong> On the server, because the attacker controls the device</p>
+<p>The app protects user data on the device.</p>
+<p><strong>Q140.</strong> What should you do with deep-link parameters?</p>
+<p><strong>Answer:</strong> Validate them as untrusted input</p>
+<p>Treat links like any external input.</p>
+<h3 id="06-building-with-eas-app-signing"><a href="../level-4/06-eas-build-signing/">06 · Building with EAS &amp; App Signing</a><a class="headerlink" href="#06-building-with-eas-app-signing" title="Permanent link">&para;</a></h3>
+<p><strong>Q141.</strong> What does an iOS .ipa vs Android .aab refer to?</p>
+<p><strong>Answer:</strong> The signed release binaries for the App Store and Google Play</p>
+<p>Play uses Android App Bundles.</p>
+<p><strong>Q142.</strong> What is the eas.json preview profile typically used for?</p>
+<p><strong>Answer:</strong> Internal release-mode builds for QA and performance testing</p>
+<p>An APK on Android.</p>
+<p><strong>Q143.</strong> What does appVersionSource: remote mean?</p>
+<p><strong>Answer:</strong> EAS manages build numbers remotely</p>
+<p>With autoIncrement for production.</p>
+<p><strong>Q144.</strong> Why keep your keystore and credentials safe?</p>
+<p><strong>Answer:</strong> Losing signing credentials can block updates to an existing app (Play App Signing reduces the risk)</p>
+<p>Let EAS manage credentials.</p>
+<h3 id="07-shipping-to-the-app-store-google-play"><a href="../level-4/07-store-submission/">07 · Shipping to the App Store &amp; Google Play</a><a class="headerlink" href="#07-shipping-to-the-app-store-google-play" title="Permanent link">&para;</a></h3>
+<p><strong>Q145.</strong> What does TestFlight give you?</p>
+<p><strong>Answer:</strong> A beta stage where internal testers install immediately and external testers need a lightweight review</p>
+<p>The closest thing to production.</p>
+<p><strong>Q146.</strong> What must apps with account creation also provide?</p>
+<p><strong>Answer:</strong> A way to delete the account in the app</p>
+<p>Apple and Google both require a path.</p>
+<p><strong>Q147.</strong> What do you give reviewers if your app needs login?</p>
+<p><strong>Answer:</strong> A demo account in the review notes</p>
+<p>Reviewers must reach all features.</p>
+<p><strong>Q148.</strong> Why use staged rollouts?</p>
+<p><strong>Answer:</strong> So a bad release reaches only a fraction of users first</p>
+<p>Watch crashes and ramp up.</p>
+<h3 id="08-over-the-air-updates-release-strategy"><a href="../level-4/08-ota-updates/">08 · Over-the-Air Updates &amp; Release Strategy</a><a class="headerlink" href="#08-over-the-air-updates-release-strategy" title="Permanent link">&para;</a></h3>
+<p><strong>Q149.</strong> What can an OTA update change?</p>
+<p><strong>Answer:</strong> The JavaScript bundle and its assets</p>
+<p>Native changes need a new binary.</p>
+<p><strong>Q150.</strong> What is runtime version for?</p>
+<p><strong>Answer:</strong> A build only accepts updates with the same runtime version, protecting against JS/native mismatch</p>
+<p>Mismatch would crash.</p>
+<p><strong>Q151.</strong> What does the fingerprint policy do?</p>
+<p><strong>Answer:</strong> Hashes everything affecting the native build so the runtime version changes only when native code changes</p>
+<p>A JS-only change does not change it.</p>
+<p><strong>Q152.</strong> What are OTA updates NOT meant for?</p>
+<p><strong>Answer:</strong> Changing the app's primary purpose or swapping in a different app after review</p>
+<p>Stay within store rules.</p>
+<h3 id="09-crash-reporting-analytics-monitoring"><a href="../level-4/09-monitoring/">09 · Crash Reporting, Analytics &amp; Monitoring</a><a class="headerlink" href="#09-crash-reporting-analytics-monitoring" title="Permanent link">&para;</a></h3>
+<p><strong>Q153.</strong> What do route ErrorBoundaries catch?</p>
+<p><strong>Answer:</strong> Errors thrown while rendering a route's subtree</p>
+<p>Handle the others in place and with a reporter.</p>
+<p><strong>Q154.</strong> Why upload source maps to Sentry?</p>
+<p><strong>Answer:</strong> So production stack traces map back to your readable source</p>
+<p>Tag releases to match builds.</p>
+<p><strong>Q155.</strong> What is a sensible analytics approach?</p>
+<p><strong>Answer:</strong> Collect a small amount, respectfully and with consent where required</p>
+<p>Declare it in privacy labels.</p>
+<p><strong>Q156.</strong> What does <strong>DEV</strong> allow in the error screen?</p>
+<p><strong>Answer:</strong> Show details in development and a friendly message in release</p>
+<p>Do not leak internals to users.</p>
+<h3 id="10-capstone-ship-a-production-ready-app"><a href="../level-4/10-capstone/">10 · Capstone — Ship a Production-Ready App</a><a class="headerlink" href="#10-capstone-ship-a-production-ready-app" title="Permanent link">&para;</a></h3>
+<p><strong>Q157.</strong> What is the capstone's deliverable?</p>
+<p><strong>Answer:</strong> Evidence that the app is a release candidate: tests, accessibility, performance, release setup and monitoring</p>
+<p>It is about readiness.</p>
+<p><strong>Q158.</strong> What goes in ARCHITECTURE.md?</p>
+<p><strong>Answer:</strong> Where state lives, data flows, offline behaviour and the navigation tree</p>
+<p>One page a reviewer can follow.</p>
+<p><strong>Q159.</strong> What should E2E flows cover in the capstone?</p>
+<p><strong>Answer:</strong> Add habit, complete it, relaunch and still completed; and the permission-denied reminder path</p>
+<p>Few, valuable flows.</p>
+<p><strong>Q160.</strong> What does a preflight script help with?</p>
+<p><strong>Answer:</strong> Checking the release gates automatically before you submit</p>
+<p>Catch mistakes early.</p>
+<h2 id="mixed-questions-across-all-levels">Mixed questions across all levels<a class="headerlink" href="#mixed-questions-across-all-levels" title="Permanent link">&para;</a></h2>
+<p><strong>Q161.</strong> A React Native app feels native mainly because...</p>
+<p><strong>Answer:</strong> its component tree is mapped to real platform views, and scrolling, text and accessibility come from the OS</p>
+<p>Components map to native views; that is also why div, CSS files and onClick do not exist.</p>
+<p><strong>Q162.</strong> A tap handler updates state but the UI responds 300 ms late, while scrolling stays smooth. Which is the likely cause?</p>
+<p><strong>Answer:</strong> The JS thread is busy (heavy render or computation); scrolling runs on the UI thread</p>
+<p>JS frame rate dropping with UI fine points to JavaScript work.</p>
+<p><strong>Q163.</strong> Which pair is the correct fix for 'my background only covers half the screen' and 'my list doesn't scroll'?</p>
+<p><strong>Answer:</strong> Give the root View and the list's parent flex: 1 so they receive a bounded height</p>
+<p>Without flex: 1 a view is only as tall as its content.</p>
+<p><strong>Q164.</strong> What is the safest way to render a count badge only when unread &gt; 0?</p>
+<p><strong>Answer:</strong> {unread &gt; 0 &amp;&amp; &lt;Text&gt;{unread}&lt;/Text&gt;}</p>
+<p>A 0 left of &amp;&amp; is rendered as a bare string and crashes inside a View.</p>
+<p><strong>Q165.</strong> Which approach gives native-feeling press feedback on both platforms?</p>
+<p><strong>Answer:</strong> Pressable with a pressed style (iOS) and android_ripple (Android), plus accessibilityRole and label</p>
+<p>Pressable replaces the older Touchable family.</p>
+<p><strong>Q166.</strong> A search screen stores the text in a global store and the whole app re-renders on every keystroke. What is the better design?</p>
+<p><strong>Answer:</strong> Keep the text in local useState and put only shared data in the store, with narrow selectors</p>
+<p>Match each kind of state to the right place.</p>
+<p><strong>Q167.</strong> Which store holds a refresh token?</p>
+<p><strong>Answer:</strong> expo-secure-store (Keychain/Keystore)</p>
+<p>AsyncStorage is unencrypted; treat it like a text file.</p>
+<p><strong>Q168.</strong> Why does data fetched with TanStack Query appear instantly when you return to a screen?</p>
+<p><strong>Answer:</strong> It is cached by query key and renders from the cache while stale data refetches in the background</p>
+<p>Server state is a cache you do not own.</p>
+<p><strong>Q169.</strong> A form field holds the string '3' but your schema needs a number. What does the schema do?</p>
+<p><strong>Answer:</strong> z.coerce.number() converts then validates it</p>
+<p>TextInput values are always strings.</p>
+<p><strong>Q170.</strong> What is the correct pattern for an offline-friendly detail screen?</p>
+<p><strong>Answer:</strong> Try the network, fall back to the locally stored copy and tell the user it is an offline copy</p>
+<p>Store the full record when favouriting.</p>
+<p><strong>Q171.</strong> Which statement about the New Architecture is true?</p>
+<p><strong>Answer:</strong> JSI lets JS call native objects directly without JSON serialisation, enabling synchronous calls</p>
+<p>Fabric and TurboModules build on JSI.</p>
+<p><strong>Q172.</strong> An iOS user denied the camera permission last week. What can your app do?</p>
+<p><strong>Answer:</strong> Explain the benefit and send the user to Settings, because the system will not prompt again</p>
+<p>canAskAgain false means Settings only.</p>
+<p><strong>Q173.</strong> Which animation is safe to run with useNativeDriver: true?</p>
+<p><strong>Answer:</strong> A transform scale or an opacity fade</p>
+<p>The native driver supports non-layout properties.</p>
+<p><strong>Q174.</strong> A swipe-to-complete gesture must stay smooth while JS is busy. What do you use?</p>
+<p><strong>Answer:</strong> Gesture Handler plus Reanimated, so recognition and animation run on the UI thread</p>
+<p>Callbacks are worklets.</p>
+<p><strong>Q175.</strong> What is the right accessibility setup for an icon-only delete button?</p>
+<p><strong>Answer:</strong> accessibilityRole="button" with accessibilityLabel="Delete" and a large enough touch target</p>
+<p>Label, role, state, then hint.</p>
+<p><strong>Q176.</strong> A teammate adds a library with native code. How do you test it?</p>
+<p><strong>Answer:</strong> Create a development build; Expo Go only includes Expo's own native modules</p>
+<p>Rebuild only when native dependencies or config change.</p>
+<p><strong>Q177.</strong> A bug is only in the release build. What is your first step?</p>
+<p><strong>Answer:</strong> Reproduce it in a release build and check native crash logs and the Sentry report with source maps</p>
+<p>Development and release differ a lot.</p>
+<p><strong>Q178.</strong> Which JS-only fix can ship over the air, and which cannot?</p>
+<p><strong>Answer:</strong> A copy or logic fix can; a new native module or permission string cannot</p>
+<p>Runtime version ties updates to compatible binaries.</p>
+<p><strong>Q179.</strong> Which belongs in the app bundle?</p>
+<p><strong>Answer:</strong> Only keys that are safe to be public; real secrets stay on the server</p>
+<p>EXPO_PUBLIC_ values are inlined into the bundle and readable.</p>
+<h2 id="practical-coding-questions">Practical coding questions<a class="headerlink" href="#practical-coding-questions" title="Permanent link">&para;</a></h2>
+<h3 id="habit-statistics-current-streak-longest-streak-and-weekly-rate">Habit statistics: current streak, longest streak and weekly rate<a class="headerlink" href="#habit-statistics-current-streak-longest-streak-and-weekly-rate" title="Permanent link">&para;</a></h3>
+<p>Implement currentStreak, longestStreak and weeklyRate for habits whose check-ins are local YYYY-MM-DD strings. Handle duplicates, month boundaries and leap days. This is plain JavaScript logic — the kind you would put in a pure module and unit-test with Jest before wiring it into a React Native screen.</p>
+<p>Starter code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>const dayKey=d=&gt;`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>const addDays=(k,n)=&gt;{const [y,m,d]=k.split('-').map(Number);return dayKey(new Date(y,m-1,d+n));};
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>// TODO: implement currentStreak(doneDates, today), longestStreak(doneDates), weeklyRate(doneDates, today)
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>//  - currentStreak: consecutive days ending today, or yesterday if today is not done yet
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>//  - longestStreak: longest run of consecutive days anywhere (ignore duplicates; handle month/leap-year boundaries)
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>//  - weeklyRate: percentage (rounded) of the last 7 days, today included, that were done
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>function summarize(h, today) {
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>  return `${h.name}: current ${currentStreak(h.doneDates, today)}, longest ${longestStreak(h.doneDates)}, week ${weeklyRate(h.doneDates, today)}%`;
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>}
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>const habits = [
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>  { name: 'Read', doneDates: ['2026-02-26','2026-02-27','2026-02-28','2026-03-01','2026-03-02','2026-03-04','2026-03-05'] },
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>  { name: 'Run', doneDates: ['2026-03-05'] },
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>  { name: 'Stretch', doneDates: [] },
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>  { name: 'Water', doneDates: ['2026-03-03','2026-03-04','2026-03-05','2026-03-05'] },
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>];
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>for (const h of habits) console.log(summarize(h, '2026-03-05'));
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>console.log(longestStreak(['2024-02-28','2024-02-29','2024-03-01']));
+</code></pre></div>
+<p>Expected output:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Read: current 2, longest 5, week 86%
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>Run: current 1, longest 1, week 14%
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>Stretch: current 0, longest 0, week 0%
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>Water: current 3, longest 3, week 43%
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>3
+</code></pre></div>
+<details class="success">
+<summary>Show a solution</summary>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>const dayKey=d=&gt;`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>const addDays=(k,n)=&gt;{const [y,m,d]=k.split('-').map(Number);return dayKey(new Date(y,m-1,d+n));};
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>function currentStreak(doneDates, today) {
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>  const done = new Set(doneDates);
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>  let cur = done.has(today) ? today : addDays(today, -1);
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>  let s = 0;
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>  while (done.has(cur)) { s++; cur = addDays(cur, -1); }
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>  return s;
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>}
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>function longestStreak(doneDates) {
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>  const days = [...new Set(doneDates)].sort();
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>  let best = 0, run = 0, prev = null;
+<a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>  for (const d of days) {
+<a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>    run = prev !== null &amp;&amp; addDays(prev, 1) === d ? run + 1 : 1;
+<a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>    best = Math.max(best, run);
+<a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>    prev = d;
+<a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a>  }
+<a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a>  return best;
+<a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a>}
+<a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a>function weeklyRate(doneDates, today) {
+<a id="__codelineno-6-22" name="__codelineno-6-22" href="#__codelineno-6-22"></a>  const done = new Set(doneDates);
+<a id="__codelineno-6-23" name="__codelineno-6-23" href="#__codelineno-6-23"></a>  let n = 0;
+<a id="__codelineno-6-24" name="__codelineno-6-24" href="#__codelineno-6-24"></a>  for (let i = 0; i &lt; 7; i++) if (done.has(addDays(today, -i))) n++;
+<a id="__codelineno-6-25" name="__codelineno-6-25" href="#__codelineno-6-25"></a>  return Math.round((n / 7) * 100);
+<a id="__codelineno-6-26" name="__codelineno-6-26" href="#__codelineno-6-26"></a>}
+<a id="__codelineno-6-27" name="__codelineno-6-27" href="#__codelineno-6-27"></a>function summarize(h, today) {
+<a id="__codelineno-6-28" name="__codelineno-6-28" href="#__codelineno-6-28"></a>  return `${h.name}: current ${currentStreak(h.doneDates, today)}, longest ${longestStreak(h.doneDates)}, week ${weeklyRate(h.doneDates, today)}%`;
+<a id="__codelineno-6-29" name="__codelineno-6-29" href="#__codelineno-6-29"></a>}
+<a id="__codelineno-6-30" name="__codelineno-6-30" href="#__codelineno-6-30"></a>const habits = [
+<a id="__codelineno-6-31" name="__codelineno-6-31" href="#__codelineno-6-31"></a>  { name: 'Read', doneDates: ['2026-02-26','2026-02-27','2026-02-28','2026-03-01','2026-03-02','2026-03-04','2026-03-05'] },
+<a id="__codelineno-6-32" name="__codelineno-6-32" href="#__codelineno-6-32"></a>  { name: 'Run', doneDates: ['2026-03-05'] },
+<a id="__codelineno-6-33" name="__codelineno-6-33" href="#__codelineno-6-33"></a>  { name: 'Stretch', doneDates: [] },
+<a id="__codelineno-6-34" name="__codelineno-6-34" href="#__codelineno-6-34"></a>  { name: 'Water', doneDates: ['2026-03-03','2026-03-04','2026-03-05','2026-03-05'] },
+<a id="__codelineno-6-35" name="__codelineno-6-35" href="#__codelineno-6-35"></a>];
+<a id="__codelineno-6-36" name="__codelineno-6-36" href="#__codelineno-6-36"></a>for (const h of habits) console.log(summarize(h, '2026-03-05'));
+<a id="__codelineno-6-37" name="__codelineno-6-37" href="#__codelineno-6-37"></a>console.log(longestStreak(['2024-02-28','2024-02-29','2024-03-01']));
+</code></pre></div>
+<p>Day keys are built with new Date(y, m-1, d+delta), which rolls over months and leap days correctly. longestStreak sorts unique keys and extends a run while the next day follows the previous one. Verified by running the solution in Node; React Native itself was not needed because this logic is deliberately independent of the UI.</p>
+</details>
+<h3 id="offline-sync-queue-with-exponential-backoff">Offline sync queue with exponential backoff<a class="headerlink" href="#offline-sync-queue-with-exponential-backoff" title="Permanent link">&para;</a></h3>
+<p>Implement backoff and SyncQueue so notes saved offline upload later with retries, never upload the same id:version twice, and a re-saved note becomes a new version. Time is passed in as a number so the behaviour is deterministic; there is no real network here.</p>
+<p>Starter code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>const BASE = 1000, CAP = 8000;
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>// TODO: backoff(attempt) = min(BASE * 2^attempt, CAP)
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>// TODO: class SyncQueue(upload) with save(id, body), async tick(now), and a log array
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>//  - save increments the note's version if the id already exists (new version = new pending upload)
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>//  - tick(now) tries every note that is not synced and whose nextAt &lt;= now
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>//  - never upload the same id:version twice (track sent keys)
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>//  - on failure: attempts++, state 'failed', nextAt = now + backoff(attempts-1), log "t=&lt;now&gt; &lt;id&gt;:&lt;v&gt; failed (retry at &lt;nextAt&gt;)"
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>//  - on success: log "t=&lt;now&gt; &lt;id&gt;:&lt;v&gt; synced"
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>let calls = 0;
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>const failures = { a: 3 };
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>const q = new SyncQueue(async (id) =&gt; { calls++; if (failures[id] &gt; 0) { failures[id]--; throw new Error('offline'); } });
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>q.save('a', 'first'); q.save('b', 'hello');
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>for (const t of [0, 500, 1000, 3000, 7000, 8000]) await q.tick(t);
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>q.save('b', 'hello edited');
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>await q.tick(8000);
+<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>await q.tick(9000);
+<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>console.log(q.log.join('\n'));
+<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>console.log('calls', calls, 'states', [...q.notes.values()].map(n =&gt; `${n.id}v${n.version}:${n.state}`).join(' '));
+<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>console.log([0,1,2,3,4,5].map(backoff).join(','));
+</code></pre></div>
+<p>Expected output:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>t=0 a:1 failed (retry at 1000)
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>t=0 b:1 synced
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>t=1000 a:1 failed (retry at 3000)
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>t=3000 a:1 failed (retry at 7000)
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>t=7000 a:1 synced
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>t=8000 b:2 synced
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>calls 6 states av1:synced bv2:synced
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>1000,2000,4000,8000,8000,8000
+</code></pre></div>
+<details class="success">
+<summary>Show a solution</summary>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>const BASE = 1000, CAP = 8000;
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>function backoff(attempt) { return Math.min(BASE * 2 ** attempt, CAP); }
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>class SyncQueue {
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>  constructor(upload) { this.upload = upload; this.notes = new Map(); this.sent = new Set(); this.log = []; }
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>  save(id, body) {
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>    const prev = this.notes.get(id);
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>    this.notes.set(id, { id, body, version: prev ? prev.version + 1 : 1, attempts: 0, nextAt: 0, state: 'pending' });
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>  }
+<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>  async tick(now) {
+<a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>    for (const n of this.notes.values()) {
+<a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a>      if (n.state === 'synced' || n.nextAt &gt; now) continue;
+<a id="__codelineno-9-13" name="__codelineno-9-13" href="#__codelineno-9-13"></a>      const key = `${n.id}:${n.version}`;
+<a id="__codelineno-9-14" name="__codelineno-9-14" href="#__codelineno-9-14"></a>      if (this.sent.has(key)) { n.state = 'synced'; continue; }
+<a id="__codelineno-9-15" name="__codelineno-9-15" href="#__codelineno-9-15"></a>      try {
+<a id="__codelineno-9-16" name="__codelineno-9-16" href="#__codelineno-9-16"></a>        await this.upload(n.id, n.version, n.body);
+<a id="__codelineno-9-17" name="__codelineno-9-17" href="#__codelineno-9-17"></a>        this.sent.add(key); n.state = 'synced';
+<a id="__codelineno-9-18" name="__codelineno-9-18" href="#__codelineno-9-18"></a>        this.log.push(`t=${now} ${key} synced`);
+<a id="__codelineno-9-19" name="__codelineno-9-19" href="#__codelineno-9-19"></a>      } catch (e) {
+<a id="__codelineno-9-20" name="__codelineno-9-20" href="#__codelineno-9-20"></a>        n.attempts++; n.state = 'failed'; n.nextAt = now + backoff(n.attempts - 1);
+<a id="__codelineno-9-21" name="__codelineno-9-21" href="#__codelineno-9-21"></a>        this.log.push(`t=${now} ${key} failed (retry at ${n.nextAt})`);
+<a id="__codelineno-9-22" name="__codelineno-9-22" href="#__codelineno-9-22"></a>      }
+<a id="__codelineno-9-23" name="__codelineno-9-23" href="#__codelineno-9-23"></a>    }
+<a id="__codelineno-9-24" name="__codelineno-9-24" href="#__codelineno-9-24"></a>  }
+<a id="__codelineno-9-25" name="__codelineno-9-25" href="#__codelineno-9-25"></a>}
+<a id="__codelineno-9-26" name="__codelineno-9-26" href="#__codelineno-9-26"></a>let calls = 0;
+<a id="__codelineno-9-27" name="__codelineno-9-27" href="#__codelineno-9-27"></a>const failures = { a: 3 };
+<a id="__codelineno-9-28" name="__codelineno-9-28" href="#__codelineno-9-28"></a>const q = new SyncQueue(async (id) =&gt; { calls++; if (failures[id] &gt; 0) { failures[id]--; throw new Error('offline'); } });
+<a id="__codelineno-9-29" name="__codelineno-9-29" href="#__codelineno-9-29"></a>q.save('a', 'first'); q.save('b', 'hello');
+<a id="__codelineno-9-30" name="__codelineno-9-30" href="#__codelineno-9-30"></a>for (const t of [0, 500, 1000, 3000, 7000, 8000]) await q.tick(t);
+<a id="__codelineno-9-31" name="__codelineno-9-31" href="#__codelineno-9-31"></a>q.save('b', 'hello edited');
+<a id="__codelineno-9-32" name="__codelineno-9-32" href="#__codelineno-9-32"></a>await q.tick(8000);
+<a id="__codelineno-9-33" name="__codelineno-9-33" href="#__codelineno-9-33"></a>await q.tick(9000);
+<a id="__codelineno-9-34" name="__codelineno-9-34" href="#__codelineno-9-34"></a>console.log(q.log.join('\n'));
+<a id="__codelineno-9-35" name="__codelineno-9-35" href="#__codelineno-9-35"></a>console.log('calls', calls, 'states', [...q.notes.values()].map(n =&gt; `${n.id}v${n.version}:${n.state}`).join(' '));
+<a id="__codelineno-9-36" name="__codelineno-9-36" href="#__codelineno-9-36"></a>console.log([0,1,2,3,4,5].map(backoff).join(','));
+</code></pre></div>
+<p>Each failure doubles the wait up to a cap, nextAt gates retries, and the sent set keyed by id:version makes uploads idempotent. This is a simulation with a fake uploader and fake clock, not a real device or network; verified by running it in Node.</p>
+</details>
+<hr />
+<p>More free practice: the <a href="../">React Native Mastery Path</a> curriculum, the <a href="https://learnmasterypath.com/interview-pack/">Interview Prep Pack</a> and the <a href="https://learnmasterypath.com/resume/">free resume ATS check</a>.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+  
+  <nav class="mp-related" aria-label="Related free courses">
+    <h2>Related free courses</h2>
+    <ul>
+      <li><a href="https://learnmasterypath.com/flutter-mastery-path/">Flutter</a></li>
+      <li><a href="https://learnmasterypath.com/">All 100+ courses &rarr;</a></li>
+    </ul>
+  </nav>
+  
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../cheat-sheet/" class="md-footer__link md-footer__link--next" aria-label="Next: Cheat Sheet">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Cheat Sheet
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="mp-foot">
+    <div class="mp-foot-inner">
+      <a class="mp-foot-brand" href="https://learnmasterypath.com/"><svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg><span>Mastery Path</span></a>
+      <nav class="mp-sitelinks" aria-label="Site and legal links">
+        <a href="https://learnmasterypath.com/">All courses</a>
+        <a href="https://learnmasterypath.com/about.html">About</a>
+        <a href="https://learnmasterypath.com/contact.html">Contact</a>
+        <a href="https://learnmasterypath.com/react-native-mastery-path/privacy/">Privacy Policy</a>
+        <a href="https://learnmasterypath.com/terms.html">Terms</a>
+        <a href="https://learnmasterypath.com/react-native-mastery-path/license/">License</a>
+        <a href="https://learnmasterypath.com/verify/">Verify a certificate</a>
+      </nav>
+    </div>
+    <p class="mp-license-note">
+      © 2026 Vinod Kumar Sigilipelli · Except where otherwise noted, lesson content is licensed under
+      <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> and code examples under the
+      <a href="https://opensource.org/license/mit">MIT License</a>.
+    </p>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.path", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "content.code.copy", "content.code.annotate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../javascripts/progress-tracker.js"></script>
+      
+        <script src="../javascripts/final-quiz.js"></script>
+      
+    
+  </body>
+</html>
